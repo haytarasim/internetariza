@@ -5,9 +5,23 @@ const TELEFON_NUMARASI   = '0850 000 00 00';   // Görünen numara
 const TELEFON_TEL_LINK   = 'tel:08500000000';   // tel: linki (boşuksuz)
 // =============================================
 
+// Logo SVG — internet/WiFi ikonu
+const LOGO_SVG = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+  stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M1.5 8.5a15 15 0 0 1 21 0"/>
+  <path d="M5 12.5a11 11 0 0 1 14 0"/>
+  <path d="M8.5 16.5a6 6 0 0 1 7 0"/>
+  <circle cx="12" cy="20.5" r="1.2" fill="white" stroke="none"/>
+</svg>`;
+
 document.addEventListener('DOMContentLoaded', () => {
 
-  // 1) Aktif nav linkini işaretle
+  // 1) Logo ikonunu WiFi SVG ile değiştir
+  document.querySelectorAll('.logo-icon').forEach(el => {
+    el.innerHTML = LOGO_SVG;
+  });
+
+  // 2) Aktif nav linkini işaretle
   const links = document.querySelectorAll('nav a');
   const path  = window.location.pathname;
   links.forEach(link => {
