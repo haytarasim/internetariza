@@ -99,7 +99,7 @@
         ilSelect.appendChild(opt);
       });
 
-    // İl değişince → ilçeleri doldur + mahalle resetle
+    // İl değişince → ilçeleri doldur + mesajı göster
     ilSelect.addEventListener('change', async () => {
       const secilen = ilSelect.value;
       resetSelect(ilceSelect, 'İlçe seçin...');
@@ -119,23 +119,26 @@
         ilceSelect.appendChild(opt);
       });
       ilceSelect.disabled = false;
+
+      // İl seçilince hemen mesajı göster
+      showSonuc(secilen, '', '');
     });
 
-    // İlçe değişince → mahalle verisi yükle
+    // İlçe değişince → mahalle verisi yükle + mesajı güncelle
     ilceSelect.addEventListener('change', async () => {
-      const il    = ilSelect.value;
-      const ilce  = ilceSelect.value;
+      const il   = ilSelect.value;
+      const ilce = ilceSelect.value;
       resetSelect(mahalleSelect, 'Yükleniyor...');
       mahalleSelect.disabled = true;
-      hideSonuc();
-      if (!ilce) return;
+      if (!ilce) { showSonuc(il, '', ''); return; }
+
+      showSonuc(il, ilce, '');
 
       setSpinner('mahalleSpinner', true);
       const mahData = await loadMahalleler(il);
       setSpinner('mahalleSpinner', false);
 
       resetSelect(mahalleSelect, 'Mahalle seçin...');
-
       if (mahData && mahData[ilce] && mahData[ilce].length > 0) {
         mahData[ilce].forEach(mah => {
           const opt = document.createElement('option');
@@ -145,18 +148,13 @@
         });
         mahalleSelect.disabled = false;
       } else {
-        // Mahalle verisi yoksa direkt sonucu göster
-        mahalleSelect.innerHTML = '<option value="">Mahalle verisi yükleniyor</option>';
-        showSonuc(il, ilce, '');
+        mahalleSelect.innerHTML = '<option value="">—</option>';
       }
     });
 
-    // Mahalle seçince → sonucu göster
+    // Mahalle seçince → mesajı güncelle
     mahalleSelect.addEventListener('change', () => {
-      const il     = ilSelect.value;
-      const ilce   = ilceSelect.value;
-      const mahalle = mahalleSelect.value;
-      if (mahalle) showSonuc(il, ilce, mahalle);
+      showSonuc(ilSelect.value, ilceSelect.value, mahalleSelect.value);
     });
   }
 
@@ -172,8 +170,7 @@
   function showSonuc(il, ilce, mahalle) {
     const sonuc = document.getElementById('lokSonuc');
     if (!sonuc) return;
-    const adresParts = [mahalle, ilce, il].filter(Boolean);
-    const adres = adresParts.join(' / ');
+    const adres = [mahalle, ilce, il].filter(Boolean).join(' / ');
 
     sonuc.className = 'lok-sonuc';
     sonuc.innerHTML = `
