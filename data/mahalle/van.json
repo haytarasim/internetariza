@@ -1,0 +1,14 @@
+{
+  "İpekyolu": ["Bahçelievler", "Cumhuriyet", "Dörtyol", "Erciş Yolu", "Fatih", "Göründü", "Kalecik", "Kışla", "Müstakil", "Orta", "Şehit", "Yenimahalle"],
+  "Tuşba": ["Bağtepe", "Cumhuriyet", "Edremit", "Gençlik", "Göründü", "Güvenevler", "Halil İbrahim", "Köşk", "Sanat", "Süphan", "Yukarı Bahçelievler"],
+  "Erciş": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Bahçelievler"],
+  "Özalp": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Başkale": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çaldıran": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çatak": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Edremit": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Gevaş": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Gürpınar": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Muradiye": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Saray": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

@@ -1,0 +1,14 @@
+{
+  "Eyyübiye": ["Bahçelievler", "Camideğirmen", "Cumhuriyet", "Devteşti", "Fatih", "Güvenli", "Halepliçe", "Kamberiye", "Kışla", "Köprübaşı", "Mevlid-i Halil", "Paşabağı", "Seyrantepe", "Yenişehir"],
+  "Haliliye": ["Atatürk", "Barutçubağı", "Bediüzzaman", "Cumhuriyet", "Emekevleri", "Güveç", "Hacıhıdır", "İnönü", "Karataş", "Karaköprü", "Süleymaniye", "Yenibahçe"],
+  "Karaköprü": ["Bahçelievler", "Cumhuriyet", "Fatih", "Güzelyurt", "Karataş", "Kepenek", "Merkez", "Yenimahalle"],
+  "Siverek": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Birecik": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Bozova": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ceylanpınar": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Harran": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hilvan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Viranşehir": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Akçakale": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Halfeti": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

@@ -1,0 +1,13 @@
+{
+  "Süleymanpaşa": ["Bahçelievler", "Cumhuriyet", "Ertuğrul", "Gaziosmanpaşa", "Hürriyet", "Kumbağ", "Karadeniz", "Kayı", "Lalezar", "Naip", "Namık Kemal", "Nusretiye", "Reşadiye", "Yavuz", "Yenimahalle"],
+  "Çorlu": ["Fevzipaşa", "Hürriyet", "İnönü", "Karacakılavuz", "Müsellim", "Omurtak", "Pınarbaşı", "Reşadiye", "Terzidere", "Ulus", "Yenimahalle"],
+  "Ergene": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çerkezköy": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Malkara": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hayrabolu": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kapaklı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Muratlı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Saray": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Marmaraereğlisi": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Şarköy": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}
