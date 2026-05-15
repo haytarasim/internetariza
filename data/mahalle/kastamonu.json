@@ -1,0 +1,22 @@
+{
+  "Merkez": ["Bahçelievler", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Hepkebirler", "Nasrullah", "Sağlık", "Topçuoğlu"],
+  "Taşköprü": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Cide": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İnebolu": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Tosya": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Araç": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Daday": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Devrekani": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Doğanyurt": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hanönü": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İhsangazi": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Küre": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Pınarbaşı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Seydiler": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Şenpazar": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Abana": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ağlı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Azdavay": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Bozkurt": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çatalzeytin": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

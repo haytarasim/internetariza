@@ -1,0 +1,20 @@
+{
+  "Altıeylül": ["Bahçelievler", "Bağtepe", "Cumhuriyet", "Hürriyet", "İsmetpaşa", "Karaoğlan", "Kayabey", "Paşaköy", "Tepecik", "Yenimahalle", "Yunus Emre", "Zafer", "Çankaya"],
+  "Karesi": ["Bahçelievler", "Çekirge", "Dağkızılca", "Eski Kuyumcular", "Gündoğdu", "Hisartepe", "Merkez", "Mütareke", "Turnacılar", "Ünlütepe", "Yeşilyurt"],
+  "Bandırma": ["Cumhuriyet", "Fatih", "Hürriyet", "Kılavuz", "Kurtuluş", "Marmara", "Yenimahalle", "İnönü"],
+  "Edremit": ["Akçay", "Altınoluk", "Avcılar", "Bahçelievler", "Burhaniye Cad.", "Cumhuriyet", "Güre", "Merkez", "Zeytinli"],
+  "Burhaniye": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Bahçelievler"],
+  "Gönen": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ayvalık": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Alibey"],
+  "Erdek": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Bigadiç": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Dursunbey": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İvrindi": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kepsut": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Manyas": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Marmara": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Savaştepe": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sındırgı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Susurluk": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Havran": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

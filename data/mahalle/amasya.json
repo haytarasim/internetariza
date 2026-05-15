@@ -1,0 +1,9 @@
+{
+  "Merkez": ["Bahçelievler", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Hatuniye", "Sabuncuoğlu", "Gökmedrese", "Sofular", "Kirazlıdere", "Yüzevler", "Helkis"],
+  "Merzifon": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Bahçelievler"],
+  "Suluova": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Bahçelievler"],
+  "Taşova": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Göynücek": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Gümüşhacıköy": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hamamözü": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

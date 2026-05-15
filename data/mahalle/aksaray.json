@@ -1,0 +1,9 @@
+{
+  "Merkez": ["Bahçelievler", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Fatih", "Zafer", "Kılıçaslan", "Topçu", "Sümerler", "Helvacı", "Tatlıpınar"],
+  "Ortaköy": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Eskil": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Güzelyurt": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ağaçören": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sarıyahşi": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sultanhanı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

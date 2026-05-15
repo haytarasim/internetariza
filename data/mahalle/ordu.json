@@ -1,0 +1,19 @@
+{
+  "Altınordu": ["Akyazı", "Aziziye", "Bahçelievler", "Bucak", "Cumhuriyet", "Çiftlik", "Dörtyol", "Düz", "Esentepe", "Güzelyalı", "Harika", "Osmangazi", "Saraybaşı", "Selimiye", "Tepecik", "Yalı"],
+  "Ünye": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Bahçelievler"],
+  "Fatsa": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Perşembe": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Gölköy": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Korgan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kumru": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Mesudiye": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Aybastı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çamaş": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çatalpınar": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çaybaşı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Gülyalı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Gürgentepe": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İkizce": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kabadüz": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kabataş": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

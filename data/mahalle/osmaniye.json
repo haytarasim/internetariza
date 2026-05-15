@@ -1,0 +1,9 @@
+{
+  "Merkez": ["Bahçelievler", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Fatih", "Karapınar", "Köroglu", "Sağlık", "Yeşilyurt"],
+  "Kadirli": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Bahçelievler"],
+  "Düziçi": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Bahçe": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hasanbeyli": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sumbas": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Toprakkale": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

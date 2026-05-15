@@ -1,0 +1,20 @@
+{
+  "Muratpaşa": ["Bahçelievler", "Balbey", "Barbaros", "Çallı", "Denizaltı", "Etiler", "Fener", "Güzeloba", "Haşimişcan", "Kızılarık", "Kırcami", "Kışla", "Liman", "Memurevleri", "Meltem", "Pınarbaşı", "Selçuk", "Sinan", "Süleyman Demirel", "Şirinyalı", "Uncalı", "Varsak", "Yeşilbahçe", "Yıldız"],
+  "Kepez": ["Altınova", "Aslandoğmuş", "Aşağıkaraman", "Döşemealtı", "Duraliler", "Emek", "Gürsu", "Kırcami", "Mehmetçik", "Pınarbaşı", "Santral", "Varsak", "Yenibosna", "Yeşiltepe"],
+  "Konyaaltı": ["Arapsuyu", "Çakırlar", "Gürsu", "Hurma", "Sarısu", "Siteler", "Uncalı", "Zeytinköy", "Konyaaltı", "Liman"],
+  "Alanya": ["Bostancıpınarı", "Cikcilli", "Demirtaş", "Güllerpınarı", "Hisartepe", "İshaklı", "Kargıcak", "Kestel", "Mahmutlar", "Obagöl", "Saray", "Tosmur", "Türkler", "Oba", "Avsallar"],
+  "Manavgat": ["Evrenseki", "Ilıca", "Kalemler", "Kızılağaç", "Küçükalan", "Merkez", "Oymapınar", "Sağırlı", "Sarıot", "Sorgun", "Taşağıl", "Türkler"],
+  "Serik": ["Belek", "Boğazkent", "Kadriye", "Kızılot", "Merkez", "Titreyengöl"],
+  "Aksu": ["Düden", "Güzelsu", "Karapınar", "Küçükbelkıs", "Merkez", "Yenikuyu"],
+  "Döşemealtı": ["Merkez", "Kepez", "Yazır", "Yağca", "Dağbeli", "Varsak"],
+  "Kemer": ["Beldibi", "Çamyuva", "Göynük", "Kiriş", "Merkez", "Tekirova"],
+  "Finike": ["Merkez", "Çavuş", "Göçük", "Hasyurt", "Turunçova"],
+  "Kaş": ["Merkez", "Kalkan", "Kaputaş", "Bezirgan", "Yeşilköy"],
+  "Elmalı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Gazipaşa": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Gündoğmuş": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İbradı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Akseki": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kumluca": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Demre": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

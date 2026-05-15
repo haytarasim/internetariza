@@ -1,0 +1,19 @@
+{
+  "Osmangazi": ["Ahmet Hamdi Tanpınar", "Akpınar", "Alacamescit", "Balat", "Bademli", "Çekirge", "Demirtaş", "Dobruca", "Emir Sultan", "Gazcılar", "Heykel", "İhsaniye", "İnönü", "Karaman", "Kemal Paşa", "Kükürtlü", "Namazgah", "Organize", "Selçuk Hatun", "Setbaşı"],
+  "Nilüfer": ["Balat", "Beşevler", "Ataevler", "Çarşamba", "Dereağzı", "Ertuğrul", "Görükle", "Gündoğdu", "Halitpaşa", "İhsaniye", "Konak", "Küçükkumla", "Odunluk", "Özlüce", "Sema", "Üçevler"],
+  "Yıldırım": ["Akçağlayan", "Bağlaraltı", "Çırpan", "Esenevler", "Gaziakdemir", "İnkaya", "Küçük Sanayi", "Millet", "Namazgah", "Panayır", "Uluç", "Ünlüpınar", "Yavuz Selim", "Yiğitali"],
+  "Mudanya": ["Cumhuriyet", "Güzelyalı", "Haydar", "Karacabey", "Merkez", "Tirilye"],
+  "Karacabey": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İnegöl": ["Cumhuriyet", "Fatih", "Hürriyet", "İnönü", "Kurtuluş", "Yenimahalle", "Zafer"],
+  "Gemlik": ["Cumhuriyet", "Fatih", "Hamidiye", "Merkez", "Orhaniye", "Yenimahalle"],
+  "Mustafakemalpaşa": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Burhaniye": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Büyükorhan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Gürsu": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Harmancık": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İznik": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Keles": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kestel": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Orhaneli": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Orhangazi": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

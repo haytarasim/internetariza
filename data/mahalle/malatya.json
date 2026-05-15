@@ -1,0 +1,16 @@
+{
+  "Battalgazi": ["Bahçelievler", "Cumhuriyet", "Fırat", "Hamidiye", "İnönü", "Karakavak", "Karagözler", "Kızılay", "Medine", "Orduzu", "Özalper", "Turgut Özal", "Yaka", "Yenidoğan"],
+  "Yeşilyurt": ["Bostanbaşı", "Çilesiz", "Gündüzbey", "Hanımeli", "Kernek", "Kuyulu", "Merkez", "Özalper", "Yakubiye", "Yeşilyurt"],
+  "Akçadağ": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Arapgir": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Arguvan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Darende": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Doğanşehir": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Doğanyol": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hekimhan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kale": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kuluncak": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Pütürge": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Yazıhan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Yeşilyurt": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

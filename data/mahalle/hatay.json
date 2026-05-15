@@ -1,0 +1,15 @@
+{
+  "Antakya": ["Armutlu", "Atatürk", "Aydınlı", "Cumhuriyet", "Defne", "Ekinci", "Eski Antakya", "Güzelburç", "Harbiye", "Meydan", "Narlıca", "Serinyol", "Şirinevler", "Toygarlı"],
+  "İskenderun": ["Bahçelievler", "Cumhuriyet", "Dumlupınar", "Hacı Sabancı", "İnönü", "Karakaş", "Kışla", "Körfez", "Narlıca", "Yeşilova"],
+  "Dörtyol": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Payas": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Erzin": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kırıkhan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Reyhanlı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hassa": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Altınözü": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Belen": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kumlu": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Yayladağı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Samandağ": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

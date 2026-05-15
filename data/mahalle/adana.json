@@ -1,0 +1,15 @@
+{
+  "Seyhan": ["Çınarlı", "Küçükdikili", "Reşatbey", "Atatürk", "Güzelyalı", "Şakirpaşa", "Karşıyaka", "Bahçelievler", "Ziyapaşa", "Mithatpaşa", "Uğur Mumcu", "Sarıçam", "Yurt", "Narlıca", "Yüreğir", "Koza", "Denizli", "Kayalıbağ", "Kurtuluş", "Yeşilbahçe"],
+  "Yüreğir": ["Beyazevler", "Huzurevleri", "İnönü", "Kazım Karabekir", "Mehmet Akif", "Turgut Özal", "Onur", "Güzelevler", "Doğankent", "Köprübaşı", "Çamlıca", "Karataş", "Hacı Sabancı", "Gümüş", "Barbaros", "Fatih", "Şehit Halil İbrahim", "Yeşilbağlar"],
+  "Çukurova": ["Yeşiloba", "Denizli", "Güneşli", "Pınar", "Döşeme", "Özgürlük", "Küçük Saat", "Meydan", "Yenimahalle", "Koza", "Ege", "Cumhuriyet", "Bariyer", "Çukurova"],
+  "Sarıçam": ["Sarıçam", "Dörtyol", "Küçükdikili", "Belediye", "Merkez", "Kuzeytepe", "Güzelyurt"],
+  "Ceyhan": ["Merkez", "Cumhuriyet", "Fatih", "Atatürk", "Kurtuluş", "Yenimahalle", "Büyükdikili"],
+  "Kozan": ["Merkez", "Cumhuriyet", "Kurtuluş", "Yenimahalle", "Atatürk", "Bahçelievler"],
+  "İmamoğlu": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Karataş": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Pozantı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Tufanbeyli": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Feke": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Aladağ": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Saimbeyli": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

@@ -1,0 +1,19 @@
+{
+  "Kayapınar": ["Bağıvar", "Diclekent", "Devteşti", "Huzurevi", "İstasyon", "Karşıyaka", "Kayapınar", "Peyas", "Üçkuyular", "Yenişehir", "Zümrüt", "Bağlar"],
+  "Bağlar": ["Bağcılar", "Bağıvar", "Cumhuriyet", "Değirmenönü", "Fatih", "Gürdoğan", "Kalıcı Konutlar", "Karşıyaka", "Nur", "Pınarbaşı", "Seyrantepe", "Şehitlik", "Yenişehir"],
+  "Sur": ["Cemal Gürsel", "Cevatpaşa", "Dabanoğlu", "Fatihpaşa", "Hasanpaşa", "İskender Paşa", "Lalebey", "Melike Hatun", "Savaş", "Ulucami", "Veni"],
+  "Yenişehir": ["Cumhuriyet", "Diclekent", "Fırat", "Güneş", "Koşuyolu", "Şeyh Şamil", "Türk Ocağı"],
+  "Ergani": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Bismil": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Silvan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çermik": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çınar": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çüngüş": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Dicle": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Eğil": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hani": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hazro": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kocaköy": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kulp": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Lice": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

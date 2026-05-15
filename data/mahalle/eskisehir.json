@@ -1,0 +1,16 @@
+{
+  "Tepebaşı": ["Bahçelievler", "Büyükdere", "Çankaya", "Çarşı", "Emek", "Göztepe", "Hoşnudiye", "Köprübaşı", "Orta", "Şirintepe", "Uluönder", "Vişnelik", "Yenibağlar", "Yenikent"],
+  "Odunpazarı": ["Akarbaşı", "Aksungur", "Alanönü", "Büyükalan", "Cengiz Topel", "Çamlıca", "Dede", "Deliklitaş", "Gültepe", "Kırmızıtoprak", "Kurtuluş", "Şarhöyük", "Tınaztepe", "Yıldıztepe", "Yüzüncüyıl"],
+  "Mahmudiye": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sivrihisar": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Alpu": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Beylikova": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Çifteler": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Günyüzü": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Han": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İnönü": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Mihalgazi": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Mihalıççık": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sarıcakaya": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Seyitgazi": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

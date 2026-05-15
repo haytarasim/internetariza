@@ -1,0 +1,16 @@
+{
+  "Adapazarı": ["Bahçelievler", "Bağlar", "Cumhuriyet", "Çarşı", "Güllük", "Hürriyet", "İstasyon", "Karaosman", "Kazımpaşa", "Kökez", "Mithatpaşa", "Orta", "Semerciler", "Tekeler", "Yenimahalle"],
+  "Serdivan": ["Cumhuriyet", "Erenler", "Güneşler", "İstiklal", "Kılavuzlar", "Merkez", "Mithatpaşa", "Yenimahalle"],
+  "Erenler": ["Cumhuriyet", "Dikmen", "Güneşler", "Kocaali", "Mithatpaşa", "Yenimahalle"],
+  "Arifiye": ["Cumhuriyet", "Orta", "Yenimahalle", "İstasyon"],
+  "Hendek": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Karasu": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sapanca": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Akyazı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Pamukova": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ferizli": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Geyve": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kaynarca": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kocaali": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Taraklı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

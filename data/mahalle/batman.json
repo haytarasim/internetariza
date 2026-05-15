@@ -1,0 +1,8 @@
+{
+  "Merkez": ["Bahçelievler", "Cumhuriyet", "Fatih", "Karşıyaka", "Kozluk Yolu", "Küçükdikili", "Raman", "Sanayi", "Zeydan", "Çarşı", "İstasyon", "Yenişehir", "Bostancı", "Köşk"],
+  "Gercüş": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Beşiri": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kozluk": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sason": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hasankeyf": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

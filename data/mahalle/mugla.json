@@ -1,0 +1,15 @@
+{
+  "Menteşe": ["Bahçelievler", "Cumhuriyet", "Emirbeyazıt", "Gündoğan", "Hürriyet", "İnönü", "Karaçulha", "Kurtuluş", "Orhaniye", "Saburhane", "Yenimahalle", "Şeyh Sinan"],
+  "Bodrum": ["Bahçelievler", "Bitez", "Cumhuriyet", "Geriş", "Gümbet", "Konacık", "Müsgebi", "Türkkuyusu", "Yalıkavak", "Turgutreis"],
+  "Fethiye": ["Babataşı", "Cumhuriyet", "Hisar", "Kaymaklı", "Kümbet", "Patlangıç", "Taşyaka", "Türkmen"],
+  "Marmaris": ["Beldibi", "Cumhuriyet", "Dışkapı", "İçmeler", "Kemeraltı", "Kuruçeşme", "Ulusal Egemenlik"],
+  "Milas": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ortaca": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Datça": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Köyceğiz": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ula": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Yatağan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Dalaman": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kavaklıdere": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Seydikemer": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

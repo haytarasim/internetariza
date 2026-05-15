@@ -1,0 +1,11 @@
+{
+  "Şahinbey": ["Bağlarbaşı", "Beykent", "Değirmiçem", "Doğankent", "Ertuğrulkent", "Fatih", "Güvenevler", "Gündoğan", "İncilipınar", "Karşıyaka", "Kozanlı", "Mücahitler", "Osmanlı", "Sanayi", "Sarıgüllük", "Tepebaşı", "Ünaldı", "Yaprak"],
+  "Şehitkamil": ["Bağlarbaşı", "Bahçelievler", "Barış", "Beylerbeyi", "Çukurbostan", "Düztepe", "Emek", "Gazikent", "Güneykent", "Kozanlı", "Narlıdere", "Pınarbaşı", "Şenyurt", "Üniversite", "Vatan"],
+  "Oğuzeli": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Nurdağı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Nizip": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle", "Bahçelievler"],
+  "Karkamış": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İslahiye": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Araban": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Yavuzeli": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

@@ -1,0 +1,17 @@
+{
+  "Melikgazi": ["Ahmet Paşa", "Akkışla", "Anbar", "Bahçelievler", "Caferiye", "Cumhuriyet", "Danacıoğlu", "Gültepe", "Hacılar", "Hürriyet", "İnönü", "Kayabağ", "Kızılırmak", "Köşk", "Küçük Sanayi", "Mimarsinan", "Mithatpaşa", "Sahabiye", "Şeker", "Zümrüt"],
+  "Kocasinan": ["Anayurt", "Argıncık", "Cumhuriyet", "Esentepe", "Gesi", "Gündoğdu", "Kavakpınar", "Kılıçaslan", "Köşk", "Kuruköprü", "Yenişehir", "Sümer", "Tat"],
+  "Talas": ["Bahçelievler", "Cumhuriyet", "Gevher Nesibe", "Harman", "İncesu Bağ", "Reşadiye", "Talas"],
+  "Develi": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Bünyan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Pınarbaşı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Tomarza": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Yeşilhisar": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Felahiye": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Hacılar": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "İncesu": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Özvatan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sarıoğlan": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Sarız": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Yahyalı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}

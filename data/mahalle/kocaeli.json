@@ -1,0 +1,14 @@
+{
+  "İzmit": ["Bahçelievler", "Bekirdere", "Çukurbağ", "Durhasan", "Gündoğdu", "Hürriyet", "İlyasbey", "Körfez", "Kuruçeşme", "Mehmetçik", "Orhan", "Seka", "Serdar", "Sümer", "Tepeköy", "Yahyakaptan"],
+  "Gebze": ["Aydınpınar", "Balçık", "Bağdatlı", "Beylikbağı", "Güzeller", "Hacı Halil", "İlyasbey", "Kavaklar", "Köşklüçeşme", "Kuruçeşme", "Mimar Sinan", "Nüfus", "Pelitli", "Şeyhli", "Tavşanlı"],
+  "Körfez": ["Güney", "Hereke", "Körfez", "Suadiye", "Yenimahalle"],
+  "Darıca": ["Cumhuriyet", "Fatih", "Fevzi Çakmak", "Hasan Basri Cantay", "Nene Hatun", "Osmangazi", "Rüzgarlı"],
+  "Derince": ["Cumhuriyet", "Durhasan", "Gündoğdu", "İstasyon", "Kayalıbağ", "Ormangazi", "Yenimahalle"],
+  "Başiskele": ["Bekirdere", "Çayırova", "Durhasan", "Fevzipaşa", "Şirintepe", "Yenimahalle"],
+  "Çayırova": ["Akse", "Çayırova", "Fatih", "İnönü", "Nüfus", "Tuzla"],
+  "Dilovası": ["Dilovası", "Fatih", "Güney", "İnönü"],
+  "Gölcük": ["Değirmendere", "Fatih", "Gölcük", "Kalıcı", "Kuzey", "Nene Hatun"],
+  "Kandıra": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Karamürsel": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kartepe": ["Maşukiye", "Soğucak", "Yuvacık", "Kirazhoca", "Karapınar"]
+}
