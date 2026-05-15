@@ -255,15 +255,11 @@ nav a.active {
 
 /* ========================
    Ad Banner
+   AdSense kodu eklenene kadar gizli.
+   Aktif etmek için display:none → display:block yapın.
 ======================== */
 .ad-banner {
-  background: #f1f3f4;
-  border: 1px dashed #aaa;
-  text-align: center;
-  padding: 12px;
-  font-size: 12px;
-  color: #999;
-  margin: 0;
+  display: none;
 }
 
 .ad-banner-inner {
