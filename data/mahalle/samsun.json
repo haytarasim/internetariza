@@ -1,0 +1,19 @@
+{
+  "Atakum": ["Atakum", "Çifte Kavak", "Esenevler", "Gazi", "Gürdoğan", "Hançerli", "Kadıköy", "Kutlukent", "Sahil", "Terme Yolu", "Yenimahalle"],
+  "Canik": ["Alucra", "Atatürk", "Cumhuriyet", "Güneysu", "Hürriyet", "Kafkas", "Kışla", "Kurtuluş", "Nefise Sultan", "Yüzevler"],
+  "İlkadım": ["Adalet", "Akgüney", "Bahçelievler", "Baruthane", "Belediye", "Büyük Cami", "Çukur", "Derebahçe", "Erfelek", "Gazi", "Kazımiye", "Kılıçdede", "Körfez", "Küçük Cami", "Kuzey", "Orta", "Rauf Orbay", "Şeker"],
+  "Tekkeköy": ["Cumhuriyet", "Fatih", "Kayabaşı", "Meydan", "Merkez", "Yenimahalle"],
+  "Bafra": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Terme": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Vezirköprü": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Alaçam": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ayvacık": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Asarcık": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Havza": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Kavak": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ladik": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Ondokuzmayıs": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Salıpazarı": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Yakakent": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"],
+  "Wanoğlu": ["Merkez", "Cumhuriyet", "Atatürk", "Kurtuluş", "Yenimahalle"]
+}
