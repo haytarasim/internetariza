@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DNS_PROBE_FINISHED_NXDOMAIN Hatası: Çözüm Rehberi — İnternetArıza</title>
+  <meta name="description" content="Chrome'da DNS_PROBE_FINISHED_NXDOMAIN hatası alıyor musunuz? DNS ayarları, hosts dosyası ve ağ sıfırlama ile adım adım çözün.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/yavash-internet.html">Yavaş İnternet</a> ›
+          <span>DNS_PROBE_FINISHED_NXDOMAIN</span>
+        </div>
+        <h1>DNS_PROBE_FINISHED_NXDOMAIN Hatası: Çözüm Rehberi</h1>
+        <p class="article-intro">Chrome veya Edge'de bir web sitesine girmeye çalışırken "DNS_PROBE_FINISHED_NXDOMAIN" veya "Bu site ulaşılamıyor" hatasıyla karşılaşıyorsunuz. Bu hata genellikle DNS çözümlemesiyle ilgilidir ve çoğunlukla kolayca giderilir.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>Bu Hata Ne Anlama Gelir?</h2>
+        <p>NXDOMAIN (Non-Existent Domain), DNS sunucusunun girdiğiniz alan adını çözümleyemediği anlamına gelir. Olası nedenler:</p>
+        <ul>
+          <li>Alan adı gerçekten mevcut değil veya silinmiş</li>
+          <li>DNS sunucusu yanıt vermiyor veya yanlış yapılandırılmış</li>
+          <li>DNS önbelleği bozuk veya eski kayıt içeriyor</li>
+          <li>Hosts dosyasında yanlış kayıt var</li>
+          <li>İnternet bağlantısı yok veya kesik</li>
+        </ul>
+
+        <h2>Adım 1: Başka Bir Siteyi Deneyin</h2>
+        <p>Yalnızca tek bir site açılmıyorsa sorun o sitededir. Birden fazla site açılmıyorsa DNS veya bağlantı sorunu sizin tarafınızdadır.</p>
+
+        <h2>Adım 2: DNS Önbelleğini Temizleyin</h2>
+        <div class="step-box">
+          <span class="step-number">1</span> CMD'yi yönetici olarak açın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> <code>ipconfig /flushdns</code> yazın → Enter.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> "DNS Çözümleyici Önbelleği başarıyla temizlendi" mesajını görmelisiniz.
+        </div>
+        <div class="step-box">
+          <span class="step-number">4</span> Tarayıcıyı kapatıp açın ve tekrar deneyin.
+        </div>
+
+        <h2>Adım 3: Chrome DNS Önbelleğini Temizleyin</h2>
+        <p>Chrome kendi DNS önbelleğini tutar. Temizlemek için:</p>
+        <ol>
+          <li>Chrome adres çubuğuna <code>chrome://net-internals/#dns</code> yazın</li>
+          <li><strong>Clear host cache</strong> butonuna tıklayın</li>
+          <li>Aynı sayfada <strong>Sockets</strong> sekmesine geçin → <strong>Flush socket pools</strong></li>
+        </ol>
+
+        <h2>Adım 4: DNS Sunucusunu Değiştirin</h2>
+        <p>ISS'nin DNS sunucusu sorunluysa Google veya Cloudflare DNS kullanın:</p>
+        <ol>
+          <li>Denetim Masası → Ağ Bağlantıları → WiFi veya Ethernet → Özellikler</li>
+          <li>İnternet Protokolü Sürüm 4 (TCP/IPv4) → Özellikler</li>
+          <li><strong>Aşağıdaki DNS sunucu adreslerini kullan</strong> seçin</li>
+          <li>Tercih edilen: <code>8.8.8.8</code> — Alternatif: <code>8.8.4.4</code></li>
+          <li>Tamam → kapat</li>
+        </ol>
+
+        <h2>Adım 5: Hosts Dosyasını Kontrol Edin</h2>
+        <p>Hosts dosyasında hatalı bir kayıt DNS çözümlemesini geçersiz kılabilir:</p>
+        <ol>
+          <li>Not Defteri'ni yönetici olarak açın</li>
+          <li>Dosya → Aç → <code>C:\Windows\System32\drivers\etc\hosts</code></li>
+          <li># ile başlamayan satırları inceleyin — şüpheli kaydı silin</li>
+          <li>Kaydedin</li>
+        </ol>
+
+        <h2>Adım 6: IP ve DNS'i Yenileyin</h2>
+        <p>CMD'de sırasıyla:</p>
+        <ul>
+          <li><code>ipconfig /release</code></li>
+          <li><code>ipconfig /renew</code></li>
+          <li><code>ipconfig /flushdns</code></li>
+          <li><code>netsh winsock reset</code></li>
+        </ul>
+        <p>Bilgisayarı yeniden başlatın.</p>
+
+        <h2>Adım 7: Modemi Yeniden Başlatın</h2>
+        <p>Modemin kendisi de DNS önbelleği tutar. 30 saniye fişini çekip takın.</p>
+
+        <div class="warn-box">
+          ⚠️ Güvenlik yazılımları veya ebeveyn denetimi uygulamaları bazı siteleri DNS düzeyinde engelleyebilir. Bu uygulamaları geçici olarak devre dışı bırakıp test edin.
+        </div>
+
+        <h2>Teknik Destek</h2>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="err-connection-timed-out.html">ERR_CONNECTION_TIMED_OUT <span class="arrow">›</span></a></li>
+          <li><a href="dns-ayarlari.html">DNS ayarları <span class="arrow">›</span></a></li>
+          <li><a href="wifi-bagli-ama-internet-yok.html">WiFi bağlı ama internet yok <span class="arrow">›</span></a></li>
+          <li><a href="internet-baglantisi-yok.html">İnternet bağlantısı yok <span class="arrow">›</span></a></li>
+          <li><a href="ip-adresi-nasil-ogrenilir.html">IP adresim nedir? <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

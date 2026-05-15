@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WiFi Bağlı Ama İnternet Yok: 8 Adımda Çözüm — İnternetArıza</title>
+  <meta name="description" content="Telefon veya bilgisayar WiFi'a bağlı görünüyor ama internet çalışmıyor mu? 8 adımda sorunu teşhis edin ve çözün.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/modem-router.html">Modem & Router</a> ›
+          <span>WiFi Bağlı Ama İnternet Yok</span>
+        </div>
+        <h1>WiFi Bağlı Ama İnternet Yok: 8 Adımda Çözüm</h1>
+        <p class="article-intro">Cihazınız WiFi ağına bağlı görünüyor, sinyal çubuğu dolu ama hiçbir web sitesi açılmıyor. Bu çok yaygın bir sorun — ve büyük çoğunlukla 5 dakikada çözülür.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>Bu Sorun Neden Olur?</h2>
+        <p>WiFi bağlantısı iki ayrı bağlantıdan oluşur: cihazınızın modemle yerel ağ bağlantısı ve modemin internete olan WAN bağlantısı. Cihazınız modeme bağlı olsa bile, modemin kendisi internete bağlı olmayabilir. İşte bu yüzden "WiFi'a bağlıyım ama internet yok" durumu ortaya çıkar.</p>
+
+        <h2>Adım 1: Sorun Sadece Bu Cihazda mı?</h2>
+        <p>Önce başka bir cihazdan (telefon, tablet, başka bilgisayar) aynı WiFi ağına bağlanın ve internet çalışıyor mu diye kontrol edin.</p>
+        <div class="tip-box">
+          💡 <strong>Eğer diğer cihazlarda da internet yoksa</strong> sorun modemdedir. <strong>Sadece bu cihazda yoksa</strong> sorun cihazınızın ağ ayarlarındadır.
+        </div>
+
+        <h2>Adım 2: Modemi Yeniden Başlatın</h2>
+        <div class="step-box">
+          <span class="step-number">1</span> Modemin fişini çekin veya güç düğmesine basın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> <strong>30 saniye</strong> bekleyin.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> Tekrar açın, tüm ışıklar sabitlenene kadar 2 dakika bekleyin.
+        </div>
+        <div class="step-box">
+          <span class="step-number">4</span> İnternete erişimi tekrar deneyin.
+        </div>
+
+        <h2>Adım 3: Cihazın WiFi Bağlantısını Sıfırlayın</h2>
+        <p>Cihazınızın WiFi ayarlarında ağı "unut" (forget) seçeneğiyle kaldırın, ardından şifreyi yeniden girerek bağlanın. Bazen IP adresi alma sorunu bu şekilde çözülür.</p>
+
+        <h2>Adım 4: DNS Sunucusunu Değiştirin</h2>
+        <p>Cihazınız IP alıyor ama DNS çözümleyemiyor olabilir. DNS ayarlarını manuel olarak değiştirin:</p>
+        <ul>
+          <li><strong>Windows:</strong> Ağ Bağdaştırıcısı Ayarları → IPv4 → DNS: <code>8.8.8.8</code> / <code>8.8.4.4</code></li>
+          <li><strong>Android:</strong> WiFi ağ detayları → Gelişmiş → DNS 1: <code>1.1.1.1</code></li>
+          <li><strong>iPhone/iPad:</strong> Ayarlar → WiFi → ağ adı → DNS → Manuel → <code>8.8.8.8</code></li>
+        </ul>
+
+        <h2>Adım 5: IP Adresinizi Kontrol Edin</h2>
+        <p>Cihazınızın geçerli bir IP adresi alıp almadığını kontrol edin. Eğer IP adresiniz <code>169.254.x.x</code> ile başlıyorsa, bu DHCP'den IP alamadığınız anlamına gelir.</p>
+        <div class="warn-box">
+          ⚠️ <strong>169.254.x.x adresi</strong> — Bu "APIPA" adresi olarak bilinir ve cihazın DHCP sunucusuna ulaşamadığını gösterir. Modemi yeniden başlatmak genellikle bu sorunu çözer.
+        </div>
+
+        <h2>Adım 6: Windows'ta Ağı Sıfırlayın</h2>
+        <p>Windows bilgisayarlarda Komut İstemi'ni (CMD) yönetici olarak açın ve sırasıyla şu komutları çalıştırın:</p>
+        <ul>
+          <li><code>netsh winsock reset</code></li>
+          <li><code>netsh int ip reset</code></li>
+          <li><code>ipconfig /release</code></li>
+          <li><code>ipconfig /renew</code></li>
+          <li><code>ipconfig /flushdns</code></li>
+        </ul>
+        <p>Komutların ardından bilgisayarı yeniden başlatın.</p>
+
+        <h2>Adım 7: Güvenlik Duvarı ve VPN Kontrolü</h2>
+        <p>Aktif bir VPN uygulaması veya üçüncü taraf güvenlik duvarı yazılımı interneti engelliyor olabilir. VPN'i kapatın ve test edin. Windows Defender Güvenlik Duvarı'nı geçici olarak devre dışı bırakarak da test yapabilirsiniz.</p>
+
+        <h2>Adım 8: Modemin WAN Bağlantısını Kontrol Edin</h2>
+        <p>Tarayıcıya <code>192.168.1.1</code> veya <code>192.168.0.1</code> yazarak modem yönetim paneline girin. "WAN Durumu" veya "İnternet Durumu" bölümünde bağlantı bilgilerini kontrol edin. Eğer WAN bağlı değilse veya hata varsa teknik destek hattını arayın.</p>
+
+        <h2>Hâlâ Çözülmediyse</h2>
+        <p>Tüm adımları denediyseniz ve sorun devam ediyorsa internet sağlayıcınızın teknik destek hattını arayın:</p>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+        <p>Aramadan önce hazır bulundurun: Abone numaranız, TC kimlik numaranız ve hangi cihazlarda sorun yaşadığınız bilgisi.</p>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="internet-baglantisi-yok.html">İnternet bağlantısı yok <span class="arrow">›</span></a></li>
+          <li><a href="ethernet-bagli-internet-yok.html">Ethernet bağlı ama internet yok <span class="arrow">›</span></a></li>
+          <li><a href="dhcp-ip-alamiyor.html">DHCP / IP alamıyor <span class="arrow">›</span></a></li>
+          <li><a href="ip-adresi-cakismasi.html">IP adresi çakışması <span class="arrow">›</span></a></li>
+          <li><a href="modem-isiklari-anlami.html">Modem ışık anlamları <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

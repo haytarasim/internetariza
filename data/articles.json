@@ -106,5 +106,185 @@
     "kategoriAd": "Yavaş İnternet",
     "url": "makaleler/internet-hiz-testi.html",
     "etiketler": ["hız testi", "speedtest", "Mbps", "ping"]
+  },
+  {
+    "id": 13,
+    "baslik": "WiFi Bağlı Ama İnternet Yok: 8 Adımda Çözüm",
+    "ozet": "Telefon veya bilgisayar WiFi'a bağlı görünüyor ama internet çalışmıyor mu? 8 adımda sorunu teşhis edin.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/wifi-bagli-ama-internet-yok.html",
+    "etiketler": ["wifi bağlı internet yok", "bağlantı sorunu", "DNS", "IP adresi"]
+  },
+  {
+    "id": 14,
+    "baslik": "WiFi Şifresi Nasıl Öğrenilir? (Modem Paneli ve Windows)",
+    "ozet": "WiFi şifrenizi unuttunuz mu? Modem yönetim paneli, Windows kayıtlı şifreler ve Android/iPhone yöntemleriyle öğrenin.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/wifi-sifresi-unutuldu.html",
+    "etiketler": ["wifi şifresi", "şifre öğrenme", "modem paneli", "Windows"]
+  },
+  {
+    "id": 15,
+    "baslik": "Modem Varsayılan Şifreleri: TP-Link, ZTE, Huawei, D-Link",
+    "ozet": "TP-Link, ZTE, Huawei, D-Link ve diğer marka modemlerin varsayılan kullanıcı adı ve şifrelerini öğrenin.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/modem-default-sifre.html",
+    "etiketler": ["modem şifresi", "varsayılan şifre", "admin", "192.168.1.1"]
+  },
+  {
+    "id": 16,
+    "baslik": "Modem Aşırı Isınıyor: Nedenleri ve Çözümleri",
+    "ozet": "Modeminiz çok ısınıyor ve internet kesiliyor mu? Aşırı ısınmanın nedenleri ve kalıcı çözüm yolları.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/modem-sicakligi-yuksek.html",
+    "etiketler": ["modem ısınıyor", "aşırı ısınma", "internet kesiliyor", "soğutma"]
+  },
+  {
+    "id": 17,
+    "baslik": "Ethernet Kablosu Takılı Ama İnternet Yok: Çözüm Rehberi",
+    "ozet": "Ethernet kablosu bağlı görünüyor ama internet çalışmıyor mu? Kablo, sürücü ve ağ ayarlarını adım adım kontrol edin.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/ethernet-bagli-internet-yok.html",
+    "etiketler": ["ethernet internet yok", "kablo bağlantısı", "ağ sürücüsü", "TCP/IP"]
+  },
+  {
+    "id": 18,
+    "baslik": "Netflix Takılıyor ve Buffer Yapıyor: Hızlı Çözüm",
+    "ozet": "Netflix sürekli yükleniyor, buffer yapıyor veya kalite düşüyor mu? İnternet hızı ve DNS ayarlarıyla çözün.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/netflix-buffer-sorunu.html",
+    "etiketler": ["netflix buffer", "netflix yavaş", "streaming", "hız"]
+  },
+  {
+    "id": 19,
+    "baslik": "YouTube Neden Yavaş? Kalite Düşüyor: Çözüm Rehberi",
+    "ozet": "YouTube videoları yavaş yükleniyor, kalite sürekli düşüyor veya takılıyor mu? Adım adım çözüm rehberi.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/youtube-yavas-kalite-sorunu.html",
+    "etiketler": ["youtube yavaş", "youtube kalite", "buffer", "DNS"]
+  },
+  {
+    "id": 20,
+    "baslik": "Zoom ve Teams Bağlantı Sorunu: Ses/Görüntü Kesiliyor",
+    "ozet": "Zoom veya Microsoft Teams toplantılarında ses ve görüntü kesiliyor, bağlantı düşüyor mu? Adım adım çözüm.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/zoom-teams-baglanti-sorunu.html",
+    "etiketler": ["zoom sorun", "teams bağlantı", "ses kesiliyor", "video konferans"]
+  },
+  {
+    "id": 21,
+    "baslik": "Online Oyunda Yüksek Ping ve Lag Sorunu: Çözüm Rehberi",
+    "ozet": "Online oyunda ping yüksek, lag var, rubber banding oluyor mu? Ping düşürme ve lag azaltma için rehber.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/oyun-ping-sorunu.html",
+    "etiketler": ["yüksek ping", "lag", "online oyun", "gecikme"]
+  },
+  {
+    "id": 22,
+    "baslik": "Geceleri İnternet Neden Yavaş? Akşam Yavaşlaması",
+    "ozet": "Akşam ve gece saatlerinde internet yavaşlıyor mu? Ağ tıkanıklığı, ISS kısıtlaması ve çözüm yolları.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/gece-internet-yavas.html",
+    "etiketler": ["gece internet yavaş", "akşam yavaşlama", "ağ tıkanıklığı", "throttling"]
+  },
+  {
+    "id": 23,
+    "baslik": "5GHz WiFi Ağı Gözükmüyor: Nedeni ve Çözümü",
+    "ozet": "5GHz WiFi ağı listede gözükmüyor mu? Modem ayarları, cihaz uyumluluğu ve bölge kodu sorunlarını çözün.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/5ghz-wifi-gozukmuyor.html",
+    "etiketler": ["5GHz WiFi", "5GHz gözükmüyor", "dual band", "WiFi ayarları"]
+  },
+  {
+    "id": 24,
+    "baslik": "IP Adresi Çakışması Hatası: Nedeni ve Çözümü",
+    "ozet": "'Bu ağda başka bir cihazla aynı IP adresini kullanıyorsunuz' hatası alıyor musunuz? IP çakışmasını çözün.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/ip-adresi-cakismasi.html",
+    "etiketler": ["IP çakışması", "IP conflict", "DHCP", "ağ sorunu"]
+  },
+  {
+    "id": 25,
+    "baslik": "DHCP Hatası: Bilgisayar IP Adresi Alamıyor",
+    "ozet": "Bilgisayar DHCP'den IP adresi alamıyor, 169.254.x.x adresi görünüyor mu? Adım adım DHCP sorun giderme.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/dhcp-ip-alamiyor.html",
+    "etiketler": ["DHCP hatası", "IP alamıyor", "169.254", "APIPA"]
+  },
+  {
+    "id": 26,
+    "baslik": "Port Açma (Port Forwarding) Nasıl Yapılır?",
+    "ozet": "Modemde port yönlendirme nasıl yapılır? TP-Link, ZTE, Huawei modemler için adım adım rehber.",
+    "kategori": "kurulum",
+    "kategoriAd": "Kurulum Rehberleri",
+    "url": "makaleler/port-acma-yonlendirme.html",
+    "etiketler": ["port açma", "port forwarding", "NAT", "oyun sunucusu"]
+  },
+  {
+    "id": 27,
+    "baslik": "IP Adresim Nedir? Yerel ve Genel IP Nasıl Bulunur?",
+    "ozet": "Yerel IP adresinizi ve genel (dış) IP adresinizi nasıl öğrenirsiniz? Windows, Mac, Android ve iPhone rehberi.",
+    "kategori": "kurulum",
+    "kategoriAd": "Kurulum Rehberleri",
+    "url": "makaleler/ip-adresi-nasil-ogrenilir.html",
+    "etiketler": ["IP adresi", "genel IP", "yerel IP", "ipconfig"]
+  },
+  {
+    "id": 28,
+    "baslik": "MAC Adresi Nedir? Nasıl Bulunur ve Filtreleme Nedir?",
+    "ozet": "MAC adresi nedir, nasıl öğrenilir? MAC filtreleme ne işe yarar? Windows, Android ve iPhone rehberi.",
+    "kategori": "kurulum",
+    "kategoriAd": "Kurulum Rehberleri",
+    "url": "makaleler/mac-adresi-nedir.html",
+    "etiketler": ["MAC adresi", "MAC filtreleme", "ağ güvenliği", "DHCP rezervasyonu"]
+  },
+  {
+    "id": 29,
+    "baslik": "DNS_PROBE_FINISHED_NXDOMAIN Hatası: Çözüm Rehberi",
+    "ozet": "Chrome'da DNS_PROBE_FINISHED_NXDOMAIN hatası alıyor musunuz? DNS ayarları ve ağ sıfırlama ile çözün.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/dns-probe-finished-nxdomain.html",
+    "etiketler": ["DNS_PROBE_FINISHED_NXDOMAIN", "DNS hatası", "Chrome hata", "site açılmıyor"]
+  },
+  {
+    "id": 30,
+    "baslik": "ERR_CONNECTION_TIMED_OUT Hatası Nedir? Nasıl Çözülür?",
+    "ozet": "Chrome'da ERR_CONNECTION_TIMED_OUT hatası alıyor musunuz? Bağlantı zaman aşımı hatasını adım adım çözün.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/err-connection-timed-out.html",
+    "etiketler": ["ERR_CONNECTION_TIMED_OUT", "zaman aşımı", "Chrome hata", "bağlantı hatası"]
+  },
+  {
+    "id": 31,
+    "baslik": "Fiber, ADSL ve VDSL Farkı: Hangisini Seçmeli?",
+    "ozet": "Fiber, ADSL ve VDSL internet teknolojilerinin farkları nedir? Hız, gecikme ve fiyat karşılaştırması.",
+    "kategori": "kurulum",
+    "kategoriAd": "Kurulum Rehberleri",
+    "url": "makaleler/fiber-adsl-vdsl-farki.html",
+    "etiketler": ["fiber internet", "ADSL", "VDSL", "internet teknolojisi"]
+  },
+  {
+    "id": 32,
+    "baslik": "İnternet Hızı Pakete Çıkmıyor: Şikayet ve Çözüm Yolları",
+    "ozet": "100 Mbps paket aldınız ama hız testi düşük mü? Paket hızına ulaşmak için yapabilecekleriniz ve şikayet hakkınız.",
+    "kategori": "kurulum",
+    "kategoriAd": "Kurulum Rehberleri",
+    "url": "makaleler/internet-hizi-pakete-cikmiyor.html",
+    "etiketler": ["hız pakete çıkmıyor", "hız garantisi", "BTK şikayet", "ISS şikayet"]
   }
 ]

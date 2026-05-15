@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://internetariza.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://internetariza.com/kategoriler/modem-router.html</loc><priority>0.8</priority></url>
-  <url><loc>https://internetariza.com/kategoriler/internet-saglayicilari.html</loc><priority>0.8</priority></url>
-  <url><loc>https://internetariza.com/kategoriler/yavash-internet.html</loc><priority>0.8</priority></url>
-  <url><loc>https://internetariza.com/kategoriler/kurulum.html</loc><priority>0.8</priority></url>
-  <url><loc>https://internetariza.com/makaleler/internet-baglantisi-yok.html</loc><priority>0.9</priority></url>
-  <url><loc>https://internetariza.com/makaleler/modem-isiklari-anlami.html</loc><priority>0.9</priority></url>
-  <url><loc>https://internetariza.com/makaleler/router-reset.html</loc><priority>0.7</priority></url>
-  <url><loc>https://internetariza.com/makaleler/turk-telekom-ariza.html</loc><priority>0.9</priority></url>
-  <url><loc>https://internetariza.com/makaleler/superonline-ariza.html</loc><priority>0.9</priority></url>
-  <url><loc>https://internetariza.com/makaleler/vodafone-ariza.html</loc><priority>0.9</priority></url>
-  <url><loc>https://internetariza.com/makaleler/internet-neden-yavas.html</loc><priority>0.9</priority></url>
-  <url><loc>https://internetariza.com/makaleler/dns-ayarlari.html</loc><priority>0.8</priority></url>
-  <url><loc>https://internetariza.com/makaleler/wifi-kanal-degistirme.html</loc><priority>0.7</priority></url>
-  <url><loc>https://internetariza.com/makaleler/internet-hiz-testi.html</loc><priority>0.8</priority></url>
-  <url><loc>https://internetariza.com/makaleler/fiber-internet-kurulumu.html</loc><priority>0.8</priority></url>
-  <url><loc>https://internetariza.com/makaleler/pppoe-ayarlari.html</loc><priority>0.7</priority></url>
+  <!-- Ana sayfa -->
+  <url><loc>https://internetariza.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Kategori sayfaları -->
+  <url><loc>https://internetariza.com/kategoriler/modem-router.html</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://internetariza.com/kategoriler/internet-saglayicilari.html</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://internetariza.com/kategoriler/yavash-internet.html</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://internetariza.com/kategoriler/kurulum.html</loc><priority>0.9</priority><changefreq>weekly</changefreq></url>
+
+  <!-- Makaleler: Modem & Router -->
+  <url><loc>https://internetariza.com/makaleler/internet-baglantisi-yok.html</loc><priority>1.0</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/modem-isiklari-anlami.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/router-reset.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/wifi-bagli-ama-internet-yok.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/wifi-sifresi-unutuldu.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/modem-default-sifre.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/modem-sicakligi-yuksek.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/ethernet-bagli-internet-yok.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/5ghz-wifi-gozukmuyor.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/ip-adresi-cakismasi.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/dhcp-ip-alamiyor.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Makaleler: İnternet Sağlayıcıları -->
+  <url><loc>https://internetariza.com/makaleler/turk-telekom-ariza.html</loc><priority>1.0</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/superonline-ariza.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/vodafone-ariza.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/internet-hizi-pakete-cikmiyor.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Makaleler: Yavaş İnternet -->
+  <url><loc>https://internetariza.com/makaleler/internet-neden-yavas.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/internet-hiz-testi.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/dns-ayarlari.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/wifi-kanal-degistirme.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/netflix-buffer-sorunu.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/youtube-yavas-kalite-sorunu.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/zoom-teams-baglanti-sorunu.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/oyun-ping-sorunu.html</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/gece-internet-yavas.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/dns-probe-finished-nxdomain.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/err-connection-timed-out.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+
+  <!-- Makaleler: Kurulum -->
+  <url><loc>https://internetariza.com/makaleler/fiber-internet-kurulumu.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/pppoe-ayarlari.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/port-acma-yonlendirme.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/ip-adresi-nasil-ogrenilir.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/mac-adresi-nedir.html</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://internetariza.com/makaleler/fiber-adsl-vdsl-farki.html</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DHCP Hatası: Bilgisayar IP Adresi Alamıyor — İnternetArıza</title>
+  <meta name="description" content="Bilgisayar DHCP'den IP adresi alamıyor, 169.254.x.x adresi görünüyor mu? Adım adım DHCP sorun giderme rehberi.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/modem-router.html">Modem & Router</a> ›
+          <span>DHCP IP Alamıyor</span>
+        </div>
+        <h1>DHCP Hatası: Bilgisayar IP Adresi Alamıyor</h1>
+        <p class="article-intro">Bilgisayarınız ağa bağlanıyor ama internet çalışmıyor ve IP adresiniz <code>169.254.x.x</code> görünüyor. Bu klasik bir DHCP sorunudur. Çoğu durumda birkaç komutla çözülür.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>DHCP Nedir?</h2>
+        <p>DHCP (Dynamic Host Configuration Protocol), modeminizin ağa bağlanan her cihaza otomatik olarak bir IP adresi, ağ geçidi ve DNS bilgisi atadığı protokoldür. DHCP çalışmazsa cihaz geçici bir "APIPA" adresi (<code>169.254.x.x</code>) alır ve internet erişimi sağlanamaz.</p>
+
+        <h2>Sorunun Belirtileri</h2>
+        <ul>
+          <li>IP adresi <code>169.254.x.x</code> formatında görünüyor</li>
+          <li>Ağ geçidi (default gateway) boş veya <code>0.0.0.0</code></li>
+          <li>WiFi bağlı görünüyor ama internet açılmıyor</li>
+          <li>"Tanımlanamayan ağ" veya "İnternet erişimi yok" uyarısı</li>
+        </ul>
+
+        <h2>Adım 1: Modemi Yeniden Başlatın</h2>
+        <p>DHCP sorunlarının büyük çoğunluğu modem yeniden başlatılınca çözülür. Fişi çekin, 30 saniye bekleyin, takın.</p>
+
+        <h2>Adım 2: IP Adresini Yenileyin</h2>
+        <div class="step-box">
+          <span class="step-number">1</span> CMD'yi yönetici olarak açın (Başlat → cmd → Yönetici olarak çalıştır).
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> <code>ipconfig /release</code> yazın, Enter'a basın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> <code>ipconfig /renew</code> yazın, Enter'a basın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">4</span> <code>ipconfig</code> yazın — artık <code>192.168.x.x</code> adresi görünmeli.
+        </div>
+
+        <h2>Adım 3: DHCP İstemci Servisini Kontrol Edin</h2>
+        <p>Windows'ta DHCP servisinin çalıştığından emin olun:</p>
+        <ol>
+          <li><strong>Win+R</strong> → <code>services.msc</code> yazın → Enter</li>
+          <li>Listede <strong>DHCP İstemcisi</strong> (DHCP Client) servisini bulun</li>
+          <li>Durum <strong>"Çalışıyor"</strong> olmalı. Değilse sağ tıklayın → <strong>Başlat</strong></li>
+          <li>Başlangıç türü <strong>"Otomatik"</strong> olarak ayarlayın</li>
+        </ol>
+
+        <h2>Adım 4: Ağ Bağdaştırıcısını Sıfırlayın</h2>
+        <p>CMD yönetici modunda sırasıyla şu komutları çalıştırın:</p>
+        <ul>
+          <li><code>netsh winsock reset</code></li>
+          <li><code>netsh int ip reset</code></li>
+          <li><code>ipconfig /flushdns</code></li>
+        </ul>
+        <p>Ardından bilgisayarı yeniden başlatın.</p>
+
+        <h2>Adım 5: IP Ayarını Otomatik Yapın</h2>
+        <p>Ağ bağdaştırıcısının IP ayarı manuel yapılmışsa DHCP'den adres alamaz:</p>
+        <ol>
+          <li>Denetim Masası → Ağ Bağlantıları → WiFi veya Ethernet sağ tık → Özellikler</li>
+          <li>İnternet Protokolü Sürüm 4 (TCP/IPv4) → Özellikler</li>
+          <li><strong>"IP adresini otomatik olarak al"</strong> seçin</li>
+          <li><strong>"DNS sunucu adresini otomatik olarak al"</strong> seçin</li>
+          <li>Tamam → kapat</li>
+        </ol>
+
+        <h2>Adım 6: Modemde DHCP Açık mı?</h2>
+        <p>Modem panelinde (<code>192.168.1.1</code>) <strong>LAN Ayarları → DHCP Sunucusu</strong> bölümünü kontrol edin. DHCP sunucusunun <strong>Etkin</strong> olduğundan emin olun. DHCP havuzu doluysa IP aralığını genişletin.</p>
+
+        <div class="warn-box">
+          ⚠️ Ağda birden fazla modem/router varsa yalnızca birinin DHCP sunucusu etkin olmalıdır. Diğerlerinde DHCP'yi kapatın, aksi hâlde IP çakışması ve dağıtım çakışması yaşanır.
+        </div>
+
+        <h2>Adım 7: Sürücüyü Yeniden Yükleyin</h2>
+        <p>Ağ adaptörü sürücüsü bozulmuşsa DHCP isteği gönderilemez. Aygıt Yöneticisi'nde ağ adaptörünü kaldırın (sürücü dosyalarını silmeden) ve bilgisayarı yeniden başlatın — Windows sürücüyü otomatik yeniden yükler.</p>
+
+        <h2>Teknik Destek</h2>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="ip-adresi-cakismasi.html">IP adresi çakışması <span class="arrow">›</span></a></li>
+          <li><a href="ip-adresi-nasil-ogrenilir.html">IP adresim nedir? <span class="arrow">›</span></a></li>
+          <li><a href="wifi-bagli-ama-internet-yok.html">WiFi bağlı ama internet yok <span class="arrow">›</span></a></li>
+          <li><a href="ethernet-bagli-internet-yok.html">Ethernet takılı ama internet yok <span class="arrow">›</span></a></li>
+          <li><a href="internet-baglantisi-yok.html">İnternet bağlantısı yok <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

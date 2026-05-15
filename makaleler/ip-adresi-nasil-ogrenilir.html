@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IP Adresim Nedir? Yerel ve Genel IP Nasıl Bulunur? — İnternetArıza</title>
+  <meta name="description" content="Yerel IP adresinizi ve genel (dış) IP adresinizi nasıl öğrenirsiniz? Windows, Mac, Android ve iPhone için adım adım rehber.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/kurulum.html">Kurulum Rehberleri</a> ›
+          <span>IP Adresim Nedir?</span>
+        </div>
+        <h1>IP Adresim Nedir? Yerel ve Genel IP Nasıl Bulunur?</h1>
+        <p class="article-intro">IP adresi sorun giderme, port açma ve ağ yapılandırması için sıkça ihtiyaç duyulan bir bilgidir. Yerel IP ile genel IP birbirinden farklıdır — ikisini de nasıl bulacağınızı öğrenin.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>Yerel IP ve Genel IP Farkı</h2>
+        <p><strong>Yerel IP (Local IP):</strong> Modeminizin ev ağınızdaki cihazlara atadığı adrestir. Genellikle <code>192.168.1.x</code> veya <code>192.168.0.x</code> formatındadır. Yalnızca ev ağınız içinde geçerlidir.</p>
+        <p><strong>Genel IP (Public IP):</strong> İnternet sağlayıcınızın modeminize atadığı adrestir. Dış dünyadan sizi tanımlayan IP budur. Port forwarding, uzaktan erişim ve coğrafi hizmetler için önemlidir.</p>
+        <div class="tip-box">
+          💡 Evdeki tüm cihazlar aynı <strong>genel IP</strong>'yi paylaşır. Her birinin farklı bir <strong>yerel IP</strong>'si vardır.
+        </div>
+
+        <h2>Genel IP Adresinizi Öğrenin</h2>
+        <p>En hızlı yol: herhangi bir tarayıcıda Google'a <strong>"ip adresim nedir"</strong> yazın. Google anında genel IP adresinizi gösterir.</p>
+        <p>Alternatif siteler:</p>
+        <ul>
+          <li><code>whatismyip.com</code></li>
+          <li><code>ipinfo.io</code></li>
+          <li><code>myip.com</code></li>
+        </ul>
+
+        <h2>Windows'ta Yerel IP Öğrenme</h2>
+        <h3>Yöntem 1: ipconfig Komutu</h3>
+        <div class="step-box">
+          <span class="step-number">1</span> <strong>Win+R</strong> tuşlarına basın → <code>cmd</code> yazın → Enter.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> <code>ipconfig</code> yazın → Enter.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> Ethernet veya Kablosuz LAN bölümündeki <strong>IPv4 Adresi</strong> satırını okuyun.
+        </div>
+
+        <h3>Yöntem 2: Ağ Ayarları</h3>
+        <ol>
+          <li>Görev çubuğundaki WiFi veya Ethernet simgesine tıklayın</li>
+          <li><strong>Ağ ve İnternet ayarları</strong> → bağlı ağın özelliklerine girin</li>
+          <li><strong>IPv4 adresi</strong> satırında yerel IP görünür</li>
+        </ol>
+
+        <h2>Mac'te Yerel IP Öğrenme</h2>
+        <ol>
+          <li>Elma menüsü → <strong>Sistem Tercihleri</strong> → <strong>Ağ</strong></li>
+          <li>Sol panelde aktif bağlantıyı seçin (WiFi veya Ethernet)</li>
+          <li>Sağ panelde IP adresi görünür</li>
+        </ol>
+        <p>Terminal ile: <code>ifconfig | grep "inet "</code></p>
+
+        <h2>Android'de Yerel IP Öğrenme</h2>
+        <ol>
+          <li>Ayarlar → WiFi</li>
+          <li>Bağlı olduğunuz ağa dokunun veya dişli simgesine basın</li>
+          <li><strong>IP adresi</strong> satırında yerel IP görünür</li>
+        </ol>
+        <div class="tip-box">
+          💡 Android 10+ sürümlerde Gelişmiş seçeneklerde görebilirsiniz. Göremiyorsanız <strong>IP ayarı</strong>'nı Statik'e çekince tüm ağ bilgileri açılır — not alın, sonra tekrar Dinamik'e alın.
+        </div>
+
+        <h2>iPhone / iPad'de Yerel IP Öğrenme</h2>
+        <ol>
+          <li>Ayarlar → WiFi</li>
+          <li>Bağlı ağın yanındaki <strong>(i)</strong> simgesine dokunun</li>
+          <li><strong>IP Adresi</strong> satırında yerel IP görünür</li>
+        </ol>
+
+        <h2>Modem Arayüzünden IP Bilgileri</h2>
+        <p>Modem panelinde (<code>192.168.1.1</code>) <strong>Durum → WAN Durumu</strong> bölümünden hem genel IP adresinizi hem de bağlantı bilgilerinizi görebilirsiniz.</p>
+
+        <h2>Statik mi, Dinamik mi?</h2>
+        <p>Genel IP adresiniz büyük ihtimalle <strong>dinamiktir</strong> — modem her yeniden başladığında değişebilir. Uzaktan erişim veya sunucu çalıştırmak için <strong>statik IP</strong> almak isterseniz ISS'nize başvurabilirsiniz (ücretli hizmet).</p>
+
+        <h2>Teknik Destek</h2>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="port-acma-yonlendirme.html">Port açma rehberi <span class="arrow">›</span></a></li>
+          <li><a href="mac-adresi-nedir.html">MAC adresi nedir? <span class="arrow">›</span></a></li>
+          <li><a href="ip-adresi-cakismasi.html">IP adresi çakışması <span class="arrow">›</span></a></li>
+          <li><a href="dhcp-ip-alamiyor.html">DHCP / IP alamıyor <span class="arrow">›</span></a></li>
+          <li><a href="fiber-internet-kurulumu.html">Fiber internet kurulumu <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

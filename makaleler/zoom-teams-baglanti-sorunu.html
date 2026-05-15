@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoom ve Teams Bağlantı Sorunu: Ses/Görüntü Kesiliyor — İnternetArıza</title>
+  <meta name="description" content="Zoom veya Microsoft Teams toplantılarında ses ve görüntü kesiliyor, bağlantı düşüyor mu? Adım adım çözüm rehberi.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/yavash-internet.html">Yavaş İnternet</a> ›
+          <span>Zoom ve Teams Bağlantı Sorunu</span>
+        </div>
+        <h1>Zoom ve Teams Bağlantı Sorunu: Ses/Görüntü Kesiliyor</h1>
+        <p class="article-intro">Video konferans araçları internet bağlantısına en duyarlı uygulamalardır. Düşük hız değil, yüksek gecikme (ping) ve paket kaybı ses/görüntü kesilmesine neden olur. Sorunu doğru teşhis edip çözelim.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>Zoom ve Teams İçin Gerekli Minimum Bağlantı</h2>
+        <ul>
+          <li><strong>Ses görüşmesi:</strong> 100 Kbps yükleme + indirme</li>
+          <li><strong>720p video:</strong> 1.5 Mbps yükleme + indirme</li>
+          <li><strong>1080p video:</strong> 3 Mbps yükleme + indirme</li>
+          <li><strong>Grup görüşmesi (5+ kişi):</strong> 4 Mbps yükleme + indirme</li>
+          <li><strong>Maksimum ping:</strong> 150 ms altı (ideal: 50 ms altı)</li>
+          <li><strong>Paket kaybı:</strong> %1'in altı olmalı</li>
+        </ul>
+        <div class="tip-box">
+          💡 Zoom ve Teams hız kadar <strong>kararlılığa</strong> ihtiyaç duyar. 100 Mbps ama kararsız bağlantı, 10 Mbps ama kararlı bağlantıdan daha kötü performans verir.
+        </div>
+
+        <h2>Adım 1: Ethernet Kablosuna Geçin</h2>
+        <p>WiFi bağlantısı, özellikle kalabalık ortamlarda ve 2.4GHz bandında, paket kaybına ve gecikme dalgalanmalarına neden olur. Mümkünse bilgisayarı doğrudan Ethernet ile modeme bağlayın. Bu tek adım çoğu sorunu çözer.</p>
+
+        <h2>Adım 2: Arka Planda Çalışan Uygulamaları Kapatın</h2>
+        <p>Görüşme sırasında şunları kapatın veya duraklatın:</p>
+        <ul>
+          <li>Bulut yedekleme (OneDrive, Google Drive, iCloud senkronizasyon)</li>
+          <li>Torrent ve indirme yöneticileri</li>
+          <li>Akış uygulamaları (Spotify, YouTube, Netflix)</li>
+          <li>Windows Update (gerekirse görüşme sonrasına erteleyin)</li>
+        </ul>
+
+        <h2>Adım 3: Zoom/Teams Video Kalitesini Düşürün</h2>
+        <p><strong>Zoom için:</strong> Ayarlar → Video → <strong>HD'yi etkinleştir</strong> seçeneğini kaldırın. Ayrıca <strong>Arka plan bulanıklaştırma</strong> özelliği işlemci ve bant genişliği tüketir — kapatın.</p>
+        <p><strong>Teams için:</strong> Profil → Ayarlar → Cihazlar → Kamera kalitesi → Düşür. Arka plan efektlerini devre dışı bırakın.</p>
+
+        <h2>Adım 4: Ping ve Paket Kaybını Test Edin</h2>
+        <p>CMD açın ve şu komutu çalıştırın:</p>
+        <p><code>ping 8.8.8.8 -n 50</code></p>
+        <p>Sonuçta:</p>
+        <ul>
+          <li><strong>Ortalama gecikme 150 ms üzerindeyse</strong> bağlantı kalitesi düşük</li>
+          <li><strong>Paket kaybı %0'dan fazlaysa</strong> bağlantı kararsız</li>
+          <li><strong>Maksimum ile minimum arasındaki fark büyükse</strong> (jitter) ses kesintileri olur</li>
+        </ul>
+
+        <h2>Adım 5: WiFi Bandını 5GHz'e Geçirin</h2>
+        <p>2.4GHz bant daha geniş kapsama alanına sahip ama kalabalık ortamlarda çok kalabalıktır. Modeminiz çift bant (dual-band) destekliyorsa 5GHz ağına bağlanın — daha az girişim, daha düşük gecikme sağlar.</p>
+
+        <h2>Adım 6: QoS Ayarı ile Öncelik Verin</h2>
+        <p>Modem yönetim panelinde QoS (Quality of Service) bölümünden Zoom veya Teams'in kullandığı port aralıklarına öncelik tanıyabilirsiniz:</p>
+        <ul>
+          <li>Zoom UDP portları: 8801–8802, 3478, 3479</li>
+          <li>Teams UDP portları: 3478–3481, 50000–59999</li>
+        </ul>
+
+        <h2>Adım 7: Uygulamayı Yeniden Yükleyin</h2>
+        <p>Eski veya bozuk uygulama sürümleri bağlantı sorunlarına yol açabilir. Uygulamayı tamamen kaldırıp en güncel sürümü yükleyin.</p>
+
+        <h2>Sorun Devam Ediyorsa</h2>
+        <p>İnternet bağlantısı kararsızsa teknik destek hattını arayın:</p>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="oyun-ping-sorunu.html">Online oyun ping sorunu <span class="arrow">›</span></a></li>
+          <li><a href="internet-neden-yavas.html">İnternet neden yavaş? <span class="arrow">›</span></a></li>
+          <li><a href="wifi-kanal-degistirme.html">WiFi kanal değiştirme <span class="arrow">›</span></a></li>
+          <li><a href="internet-hiz-testi.html">Hız testi nasıl yapılır? <span class="arrow">›</span></a></li>
+          <li><a href="ethernet-bagli-internet-yok.html">Ethernet bağlantı sorunu <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

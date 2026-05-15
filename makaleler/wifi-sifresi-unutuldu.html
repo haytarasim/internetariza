@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WiFi Şifresi Nasıl Öğrenilir? (Modem Paneli ve Windows) — İnternetArıza</title>
+  <meta name="description" content="WiFi şifrenizi unuttunuz mu? Modem yönetim paneli, Windows kayıtlı şifreler ve Android/iPhone yöntemleriyle öğrenin.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/modem-router.html">Modem & Router</a> ›
+          <span>WiFi Şifresi Nasıl Öğrenilir?</span>
+        </div>
+        <h1>WiFi Şifresi Nasıl Öğrenilir? (Modem Paneli ve Windows)</h1>
+        <p class="article-intro">WiFi şifrenizi unuttunuz ve yeni bir cihaz bağlamak istiyorsunuz. Panik yapmayın — şifreyi öğrenmenin birden fazla yolu var. Modeminize fiziksel erişiminiz olmasa bile çözüm mümkün.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>Yöntem 1: Modem Etiketini Kontrol Edin</h2>
+        <p>En hızlı yol: modemin alt veya arka yüzündeki etikete bakmak. Burada genellikle şu bilgiler bulunur:</p>
+        <ul>
+          <li><strong>SSID / Network Name:</strong> WiFi ağ adı</li>
+          <li><strong>WPA Key / WiFi Password / PIN:</strong> Varsayılan WiFi şifresi</li>
+        </ul>
+        <div class="tip-box">
+          💡 Şifreyi hiç değiştirmediyseniz etiketteki şifre hâlâ geçerlidir. Değiştirdiyseniz diğer yöntemlere geçin.
+        </div>
+
+        <h2>Yöntem 2: Modem Yönetim Panelinden Öğrenin</h2>
+        <p>Halihazırda WiFi'a bağlı olan bir cihazdan modem paneline giriş yapabilirsiniz:</p>
+        <div class="step-box">
+          <span class="step-number">1</span> Tarayıcı adres çubuğuna <code>192.168.1.1</code> veya <code>192.168.0.1</code> yazın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> Modem giriş sayfası açılır. Kullanıcı adı ve şifre genellikle <strong>admin / admin</strong> veya etikette yazar.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> <strong>Kablosuz (Wireless)</strong> veya <strong>WiFi Ayarları</strong> menüsüne gidin.
+        </div>
+        <div class="step-box">
+          <span class="step-number">4</span> <strong>WPA Şifresi / Parola</strong> alanında WiFi şifrenizi görebilirsiniz. Şifre yıldız (***) görünüyorsa yanındaki "göster" ikonuna tıklayın.
+        </div>
+
+        <h2>Yöntem 3: Windows'ta Kayıtlı Şifreyi Görün</h2>
+        <p>Bilgisayarınız daha önce bu ağa bağlıysa Windows şifreyi kaydeder:</p>
+        <div class="step-box">
+          <span class="step-number">1</span> Görev çubuğundaki WiFi simgesine sağ tıklayın → <strong>Ağ ve İnternet Ayarları</strong>.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> <strong>Ağ ve Paylaşım Merkezi</strong> → bağlı olduğunuz ağ adına tıklayın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> <strong>Kablosuz Özellikler</strong> → <strong>Güvenlik</strong> sekmesi.
+        </div>
+        <div class="step-box">
+          <span class="step-number">4</span> <strong>"Karakterleri göster"</strong> kutusunu işaretleyin. Şifre görünür hale gelir.
+        </div>
+
+        <h2>Yöntem 4: Windows CMD ile Şifre Öğrenme</h2>
+        <p>Komut İstemi (CMD) ile tüm kayıtlı ağların şifrelerini listeleyebilirsiniz:</p>
+        <ol>
+          <li>Başlat menüsüne <strong>cmd</strong> yazın, sağ tıklayıp <strong>Yönetici olarak çalıştır</strong> deyin.</li>
+          <li>Şu komutu çalıştırın: <code>netsh wlan show profiles</code> — kayıtlı tüm ağlar listelenir.</li>
+          <li>İstediğiniz ağ için: <code>netsh wlan show profile name="AGI_ADI" key=clear</code></li>
+          <li><strong>Key Content</strong> satırında şifre görünür.</li>
+        </ol>
+
+        <h2>Yöntem 5: Android ile QR Kod (Android 10+)</h2>
+        <p>Bağlı olduğunuz ağ için QR kodu oluşturabilirsiniz:</p>
+        <ol>
+          <li>Ayarlar → WiFi → Bağlı ağın yanındaki dişli simgesi.</li>
+          <li><strong>QR Kodu Paylaş</strong> seçeneğine dokunun.</li>
+          <li>QR kodu başka cihazla taratın — şifre otomatik dolar.</li>
+          <li>QR kodu okuyucu uygulamasıyla tararsanız şifreyi düz metin olarak da görebilirsiniz.</li>
+        </ol>
+
+        <h2>Hiçbiri İşe Yaramadıysa: Şifreyi Sıfırlayın</h2>
+        <p>Modemi fabrika ayarlarına döndürerek varsayılan şifreye geri dönebilirsiniz. Ancak bu işlem tüm ayarlarınızı sıfırlar — PPPoE kullanıcı adı ve şifresi gibi bilgileri yeniden girmeniz gerekir.</p>
+        <div class="warn-box">
+          ⚠️ <strong>Dikkat:</strong> Fabrika ayarlarına dönmeden önce mevcut ayarlarınızı not alın veya ekran görüntüsü alın. PPPoE şifrenizi bilmiyorsanız internet sağlayıcınızı aramanız gerekebilir.
+        </div>
+
+        <p>Daha fazla yardım için teknik destek hattını arayın:</p>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="modem-default-sifre.html">Modem varsayılan şifreler <span class="arrow">›</span></a></li>
+          <li><a href="router-reset.html">Modemi sıfırlama <span class="arrow">›</span></a></li>
+          <li><a href="wifi-bagli-ama-internet-yok.html">WiFi bağlı ama internet yok <span class="arrow">›</span></a></li>
+          <li><a href="5ghz-wifi-gozukmuyor.html">5GHz WiFi gözükmüyor <span class="arrow">›</span></a></li>
+          <li><a href="internet-baglantisi-yok.html">İnternet bağlantısı yok <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

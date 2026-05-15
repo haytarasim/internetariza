@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IP Adresi Çakışması Hatası: Nedeni ve Çözümü — İnternetArıza</title>
+  <meta name="description" content="'Bu ağda başka bir cihazla aynı IP adresini kullanıyorsunuz' hatası alıyor musunuz? IP çakışmasını adım adım çözün.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/modem-router.html">Modem & Router</a> ›
+          <span>IP Adresi Çakışması</span>
+        </div>
+        <h1>IP Adresi Çakışması Hatası: Nedeni ve Çözümü</h1>
+        <p class="article-intro">"Bu ağda başka bir cihazla aynı IP adresini kullanıyorsunuz" veya "IP address conflict" hatası alıyorsunuz ve internet çalışmıyor. Bu sorun düzeltilebilir ve kalıcı önlem almak da kolaydır.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>IP Çakışması Nedir?</h2>
+        <p>Bir yerel ağda her cihazın benzersiz bir IP adresi olması gerekir. İki farklı cihaz aynı IP adresine sahip olursa her ikisi de düzgün çalışamaz — bağlantı kesilir veya hiç kurulamaz. Buna <strong>IP adresi çakışması</strong> denir.</p>
+
+        <h2>Neden Olur?</h2>
+        <ul>
+          <li><strong>Statik IP çakışması:</strong> Bir cihaza manuel IP atandıysa ve aynı adres DHCP tarafından başka bir cihaza da verildiyse</li>
+          <li><strong>DHCP kira süresi sorunu:</strong> Modem yeniden başlarken eski IP kiralamalarını hatırlamayabilir</li>
+          <li><strong>Ağa yeni cihaz eklenmesi:</strong> Aynı IP'yi kullanan eski bir cihaz ağa geri döndüğünde</li>
+          <li><strong>İkinci bir DHCP sunucusu:</strong> Ağda birden fazla modem/router varsa ikisi de IP dağıtmaya çalışabilir</li>
+        </ul>
+
+        <h2>Hızlı Çözüm: IP Adresini Yenileyin</h2>
+        <div class="step-box">
+          <span class="step-number">1</span> Windows CMD'yi yönetici olarak açın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> <code>ipconfig /release</code> yazın ve Enter'a basın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> <code>ipconfig /renew</code> yazın ve Enter'a basın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">4</span> Yeni IP adresi atanacak, çakışma çözülecektir.
+        </div>
+
+        <h2>Kalıcı Çözüm 1: DHCP'ye Bırakın</h2>
+        <p>Ağınızdaki tüm cihazların IP ayarının <strong>Otomatik (DHCP)</strong> olduğundan emin olun:</p>
+        <ol>
+          <li>Denetim Masası → Ağ Bağlantıları → Ethernet veya WiFi → Sağ tık → Özellikler</li>
+          <li>İnternet Protokolü Sürüm 4 (TCP/IPv4) → Özellikler</li>
+          <li><strong>"IP adresini otomatik olarak al"</strong> ve <strong>"DNS sunucu adresini otomatik olarak al"</strong> seçili olsun</li>
+          <li>Tamam'a tıklayın</li>
+        </ol>
+
+        <h2>Kalıcı Çözüm 2: DHCP Havuzunu Genişletin</h2>
+        <p>Ağda çok fazla cihaz varsa modem DHCP havuzu dolmuş olabilir. Modem panelinde DHCP ayarlarına girin ve IP aralığını genişletin. Örneğin <code>192.168.1.100 – 192.168.1.200</code> yerine <code>192.168.1.2 – 192.168.1.254</code> yapın.</p>
+
+        <h2>Kalıcı Çözüm 3: Statik IP Atanmışsa Değiştirin</h2>
+        <p>Ağınızda yazıcı, NAS veya sunucu gibi statik IP adresi atanmış cihazlar varsa bu adreslerin DHCP havuzu dışında olduğundan emin olun. Örneğin DHCP havuzu <code>.100-.200</code> arasındaysa statik cihazlara <code>.2-.99</code> aralığından adres verin.</p>
+
+        <div class="tip-box">
+          💡 Modem panelinde <strong>DHCP Rezervasyonu</strong> (Static DHCP veya Address Reservation) özelliğini kullanarak belirli cihazlara her zaman aynı IP'nin verilmesini sağlayabilirsiniz — hem statik hem güvenli.
+        </div>
+
+        <h2>Modemi Yeniden Başlatın</h2>
+        <p>Yukarıdaki adımlardan sonra modemi yeniden başlatın. Bu, tüm DHCP kiralamalarını sıfırlar ve temiz bir başlangıç yapar.</p>
+
+        <div class="warn-box">
+          ⚠️ Ağda ikinci bir modem veya router varsa (örneğin fiber ONT + ayrı router), ikisinin de aynı anda DHCP dağıtmadığından emin olun. Birinin DHCP'sini kapatın.
+        </div>
+
+        <h2>Teknik Destek</h2>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="dhcp-ip-alamiyor.html">DHCP / IP alamıyor <span class="arrow">›</span></a></li>
+          <li><a href="ip-adresi-nasil-ogrenilir.html">IP adresim nedir? <span class="arrow">›</span></a></li>
+          <li><a href="wifi-bagli-ama-internet-yok.html">WiFi bağlı ama internet yok <span class="arrow">›</span></a></li>
+          <li><a href="ethernet-bagli-internet-yok.html">Ethernet takılı ama internet yok <span class="arrow">›</span></a></li>
+          <li><a href="internet-baglantisi-yok.html">İnternet bağlantısı yok <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAC Adresi Nedir? Nasıl Bulunur ve Filtreleme Nedir? — İnternetArıza</title>
+  <meta name="description" content="MAC adresi nedir, nasıl öğrenilir? MAC filtreleme ne işe yarar? Windows, Android ve iPhone için MAC adresi bulma rehberi.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/kurulum.html">Kurulum Rehberleri</a> ›
+          <span>MAC Adresi Nedir?</span>
+        </div>
+        <h1>MAC Adresi Nedir? Nasıl Bulunur ve Filtreleme Nedir?</h1>
+        <p class="article-intro">MAC adresi, her ağ adaptörüne üretici tarafından atanan benzersiz bir donanım kimliğidir. Ağ sorunlarını gidermek, DHCP rezervasyonu yapmak ve WiFi güvenliğini artırmak için MAC adresinizi bilmeniz gerekebilir.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>MAC Adresi Nedir?</h2>
+        <p>MAC (Media Access Control) adresi, ağ kartınızın veya WiFi adaptörünüzün fabrikada atanan 48 bitlik benzersiz kimliğidir. Genellikle şu formatlarda gösterilir:</p>
+        <ul>
+          <li><code>AA:BB:CC:DD:EE:FF</code></li>
+          <li><code>AA-BB-CC-DD-EE-FF</code></li>
+          <li><code>AABB.CCDD.EEFF</code></li>
+        </ul>
+        <p>İlk 3 oktet (AA:BB:CC) üretici kodunu, son 3 oktet cihaza özgü seri numarasını gösterir.</p>
+        <div class="tip-box">
+          💡 Her cihazın birden fazla MAC adresi olabilir: WiFi adaptörü için ayrı, Ethernet kartı için ayrı MAC adresi bulunur.
+        </div>
+
+        <h2>Windows'ta MAC Adresi Bulma</h2>
+        <h3>Yöntem 1: ipconfig Komutu</h3>
+        <div class="step-box">
+          <span class="step-number">1</span> CMD açın (Win+R → cmd → Enter).
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> <code>ipconfig /all</code> yazın → Enter.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> WiFi veya Ethernet bölümündeki <strong>Fiziksel Adres</strong> satırı MAC adresinizdir.
+        </div>
+
+        <h3>Yöntem 2: Ağ Ayarları</h3>
+        <ol>
+          <li>Ayarlar → Ağ ve İnternet → WiFi veya Ethernet → Donanım özellikleri</li>
+          <li><strong>Fiziksel adres (MAC)</strong> satırını okuyun</li>
+        </ol>
+
+        <h2>Android'de MAC Adresi Bulma</h2>
+        <ol>
+          <li>Ayarlar → WiFi</li>
+          <li>Bağlı ağa uzun basın veya dişli simgesine dokunun</li>
+          <li><strong>Gelişmiş</strong> bölümünde MAC adresi görünür</li>
+        </ol>
+        <div class="warn-box">
+          ⚠️ Android 10 ve sonrasında <strong>rastgele MAC adresi</strong> özelliği varsayılan olarak açık olabilir. Bu durumda her bağlantıda farklı bir MAC gösterilir. DHCP rezervasyonu için gerçek MAC adresini kullanmanız gerekir: WiFi ağ ayarlarında "Rastgele MAC kullan" seçeneğini kapatın.
+        </div>
+
+        <h2>iPhone / iPad'de MAC Adresi Bulma</h2>
+        <ol>
+          <li>Ayarlar → Genel → Hakkında</li>
+          <li><strong>WiFi Adresi</strong> satırı WiFi MAC adresinizdir</li>
+        </ol>
+        <p>Alternatif: Ayarlar → WiFi → bağlı ağın (i) simgesi → <strong>Özel WiFi Adresi</strong> kapalıysa gerçek MAC gösterilir.</p>
+
+        <h2>MAC Filtreleme Nedir?</h2>
+        <p>MAC filtreleme, modeminizin yalnızca izin listesindeki MAC adreslerine sahip cihazların WiFi'a bağlanmasına izin verdiği bir güvenlik özelliğidir.</p>
+        <h3>MAC Filtreleme Nasıl Kurulur?</h3>
+        <ol>
+          <li>Modem paneline girin (<code>192.168.1.1</code>)</li>
+          <li>Kablosuz Ayarlar → <strong>MAC Filtreleme</strong> veya <strong>Erişim Kontrolü</strong></li>
+          <li>Filtrelemeyi <strong>Etkin</strong> yapın</li>
+          <li>İzin vermek istediğiniz cihazların MAC adreslerini ekleyin</li>
+          <li>Kaydedin</li>
+        </ol>
+        <div class="warn-box">
+          ⚠️ <strong>MAC filtreleme güçlü bir güvenlik yöntemi değildir.</strong> MAC adresleri kolayca taklit edilebilir (MAC spoofing). Güçlü WiFi şifresi (WPA3 veya WPA2) daha etkili koruma sağlar. MAC filtrelemeyi ek bir katman olarak kullanabilirsiniz.
+        </div>
+
+        <h2>DHCP Rezervasyonu için MAC Adresi</h2>
+        <p>Belirli bir cihaza her zaman aynı IP adresinin verilmesi için modem panelinde DHCP rezervasyonu yapabilirsiniz. Bunun için cihazın MAC adresi gereklidir. Modem panelinde <strong>DHCP → Adres Rezervasyonu</strong> bölümüne MAC adresini ve istenen IP'yi ekleyin.</p>
+
+        <h2>Teknik Destek</h2>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="ip-adresi-nasil-ogrenilir.html">IP adresim nedir? <span class="arrow">›</span></a></li>
+          <li><a href="port-acma-yonlendirme.html">Port açma rehberi <span class="arrow">›</span></a></li>
+          <li><a href="dhcp-ip-alamiyor.html">DHCP / IP alamıyor <span class="arrow">›</span></a></li>
+          <li><a href="wifi-sifresi-unutuldu.html">WiFi şifresi unuttum <span class="arrow">›</span></a></li>
+          <li><a href="5ghz-wifi-gozukmuyor.html">5GHz WiFi gözükmüyor <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

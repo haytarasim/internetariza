@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethernet Kablosu Takılı Ama İnternet Yok: Çözüm Rehberi — İnternetArıza</title>
+  <meta name="description" content="Ethernet kablosu bağlı görünüyor ama internet çalışmıyor mu? Kablo, sürücü ve ağ ayarlarını adım adım kontrol edin.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/modem-router.html">Modem & Router</a> ›
+          <span>Ethernet Takılı Ama İnternet Yok</span>
+        </div>
+        <h1>Ethernet Kablosu Takılı Ama İnternet Yok: Çözüm Rehberi</h1>
+        <p class="article-intro">Ethernet kablosunu taktınız, bilgisayar bağlı görünüyor ama hiçbir site açılmıyor. WiFi'dan farklı olarak kablolu bağlantıda sorunun kaynağı daha sınırlıdır — çoğunu kendiniz çözebilirsiniz.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>Hızlı Kontrol Listesi</h2>
+        <ul>
+          <li>Ethernet kablosunun her iki ucu sıkıca takılı mı?</li>
+          <li>Modemdeki Ethernet port ışığı yanıyor mu?</li>
+          <li>Bilgisayardaki ağ simgesinde "bağlı" yazıyor mu?</li>
+          <li>Başka bir cihazda (WiFi ile) internet çalışıyor mu?</li>
+        </ul>
+
+        <h2>Adım 1: Kabloyu ve Portları Kontrol Edin</h2>
+        <div class="step-box">
+          <span class="step-number">1</span> Ethernet kablosunu her iki uçtan çıkarıp yeniden sıkıca takın. "Klik" sesi duymalısınız.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> Modemdeki farklı bir Ethernet portunu deneyin (LAN1 yerine LAN2 gibi).
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> Mümkünse farklı bir Ethernet kablosu kullanın — kablo hasarlı olabilir.
+        </div>
+        <div class="step-box">
+          <span class="step-number">4</span> Modemi yeniden başlatın ve 2 dakika bekleyin.
+        </div>
+
+        <div class="tip-box">
+          💡 Modem-bilgisayar arasında bir switch veya hub varsa onu da yeniden başlatın.
+        </div>
+
+        <h2>Adım 2: Windows Ağ Tanılamasını Çalıştırın</h2>
+        <div class="step-box">
+          <span class="step-number">1</span> Görev çubuğundaki ağ simgesine sağ tıklayın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> <strong>"Sorun giderme"</strong> veya <strong>"Ağ sorunlarını tanıla"</strong> seçeneğini tıklayın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> Windows otomatik olarak sorunu tespit etmeye çalışır ve çözüm önerir.
+        </div>
+
+        <h2>Adım 3: Ethernet Adaptörünü Devre Dışı Bırakıp Etkinleştirin</h2>
+        <ol>
+          <li>Başlat → Denetim Masası → Ağ ve İnternet → Ağ Bağlantıları</li>
+          <li>Ethernet adaptörüne sağ tıklayın → <strong>Devre dışı bırak</strong></li>
+          <li>10 saniye bekleyin, tekrar sağ tıklayın → <strong>Etkinleştir</strong></li>
+        </ol>
+
+        <h2>Adım 4: IP Adresini Yenileyin</h2>
+        <p>CMD'yi yönetici olarak açın ve sırasıyla şu komutları çalıştırın:</p>
+        <ul>
+          <li><code>ipconfig /release</code></li>
+          <li><code>ipconfig /renew</code></li>
+          <li><code>ipconfig /flushdns</code></li>
+        </ul>
+        <p>Ardından <code>ipconfig</code> yazın ve <strong>IPv4 Adresi</strong> satırında geçerli bir IP (192.168.x.x) görünüyor mu kontrol edin.</p>
+
+        <h2>Adım 5: Ethernet Sürücüsünü Güncelleyin</h2>
+        <ol>
+          <li>Başlat → Aygıt Yöneticisi</li>
+          <li><strong>Ağ Bağdaştırıcıları</strong> bölümünü genişletin</li>
+          <li>Ethernet adaptörüne sağ tıklayın → <strong>Sürücüyü güncelle</strong></li>
+          <li>Otomatik arama seçeneğini seçin</li>
+        </ol>
+        <div class="warn-box">
+          ⚠️ Sarı ünlem işareti görüyorsanız sürücü bozuk veya eksik demektir. Üretici sitesinden sürücüyü indirip yükleyin.
+        </div>
+
+        <h2>Adım 6: TCP/IP Yığınını Sıfırlayın</h2>
+        <p>CMD'yi yönetici olarak açın:</p>
+        <ul>
+          <li><code>netsh winsock reset</code></li>
+          <li><code>netsh int ip reset</code></li>
+        </ul>
+        <p>Bilgisayarı yeniden başlatın.</p>
+
+        <h2>Adım 7: Güvenlik Duvarı ve Antivirüs</h2>
+        <p>Üçüncü taraf güvenlik yazılımları bazen kablolu bağlantıyı engelleyebilir. Antivirüs veya güvenlik duvarını geçici olarak devre dışı bırakıp test edin. Sorun çözülürse yazılımın ağ ayarlarını gözden geçirin.</p>
+
+        <h2>Sorun Çözülmediyse</h2>
+        <p>Tüm adımları denediyseniz ve başka cihazlarda da Ethernet çalışmıyorsa modemin LAN portları arızalı olabilir. Teknik destek hattını arayın:</p>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="wifi-bagli-ama-internet-yok.html">WiFi bağlı ama internet yok <span class="arrow">›</span></a></li>
+          <li><a href="internet-baglantisi-yok.html">İnternet bağlantısı yok <span class="arrow">›</span></a></li>
+          <li><a href="dhcp-ip-alamiyor.html">DHCP / IP alamıyor <span class="arrow">›</span></a></li>
+          <li><a href="modem-isiklari-anlami.html">Modem ışık anlamları <span class="arrow">›</span></a></li>
+          <li><a href="router-reset.html">Modemi sıfırlama <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Port Açma (Port Forwarding) Nasıl Yapılır? — İnternetArıza</title>
+  <meta name="description" content="Modemde port açma (port forwarding) nasıl yapılır? TP-Link, ZTE, Huawei modemler için adım adım rehber.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/kurulum.html">Kurulum Rehberleri</a> ›
+          <span>Port Açma (Port Forwarding)</span>
+        </div>
+        <h1>Port Açma (Port Forwarding) Nasıl Yapılır?</h1>
+        <p class="article-intro">Online oyun sunucusu kurmak, uzaktan masaüstü erişimi, NAS veya güvenlik kamerası için dışarıdan erişim sağlamak istiyorsanız modemde port yönlendirme (port forwarding) yapmanız gerekir.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>Port Forwarding Nedir?</h2>
+        <p>Modeminiz tüm gelen internet trafiğini varsayılan olarak engeller — bu güvenlik açısından iyidir. Port forwarding, belirli bir port numarasına gelen trafiği yerel ağınızdaki belirli bir cihaza yönlendirmenizi sağlar. Örneğin dışarıdan <strong>25565</strong> portuna gelen trafiği Minecraft sunucunuzun kurulu olduğu bilgisayara yönlendirebilirsiniz.</p>
+
+        <h2>Adım 1: Cihaza Sabit IP Verin</h2>
+        <p>Port forwarding kuralı bir IP adresine bağlanır. Cihazın IP'si değişirse kural çalışmaz. İki yöntem:</p>
+        <ul>
+          <li><strong>Modemde DHCP rezervasyonu:</strong> Cihazın MAC adresine her zaman aynı IP verilir (önerilen yöntem)</li>
+          <li><strong>Cihazda statik IP:</strong> Cihazın IP ayarını manuel yapın (192.168.1.x aralığında, DHCP havuzu dışında)</li>
+        </ul>
+
+        <h2>Adım 2: Modem Paneline Girin</h2>
+        <div class="step-box">
+          <span class="step-number">1</span> Tarayıcıda <code>192.168.1.1</code> adresine gidin.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> Kullanıcı adı ve şifrenizle giriş yapın (varsayılan: admin/admin veya etikette yazar).
+        </div>
+
+        <h2>Adım 3: Port Forwarding Kuralını Ekleyin</h2>
+        <p>Modem markasına göre menü adı değişir:</p>
+        <ul>
+          <li><strong>TP-Link:</strong> Gelişmiş → NAT İletme → Sanal Sunucular</li>
+          <li><strong>ZTE:</strong> Uygulama → Port Yönlendirme</li>
+          <li><strong>Huawei:</strong> Gelişmiş → NAT → Port Eşleme</li>
+          <li><strong>D-Link:</strong> Gelişmiş → Port İletme</li>
+        </ul>
+
+        <div class="step-box">
+          <span class="step-number">1</span> <strong>Servis Portu / Dış Port:</strong> Dışarıdan gelecek port numarasını girin (örn. 25565).
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> <strong>Dahili Port / İç Port:</strong> Genellikle aynı numara (25565).
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> <strong>Dahili IP / Hedef IP:</strong> Cihazın yerel IP adresi (örn. 192.168.1.100).
+        </div>
+        <div class="step-box">
+          <span class="step-number">4</span> <strong>Protokol:</strong> TCP, UDP veya her ikisi (uygulamanın belgelerine bakın).
+        </div>
+        <div class="step-box">
+          <span class="step-number">5</span> Kaydedin ve modemi yeniden başlatın.
+        </div>
+
+        <h2>Popüler Uygulamalar için Port Listesi</h2>
+        <table style="width:100%;border-collapse:collapse;margin:16px 0">
+          <tr style="background:var(--blue);color:#fff">
+            <th style="padding:10px;text-align:left">Uygulama</th>
+            <th style="padding:10px;text-align:left">Port</th>
+            <th style="padding:10px;text-align:left">Protokol</th>
+          </tr>
+          <tr style="border-bottom:1px solid #eee">
+            <td style="padding:10px">Minecraft Sunucu</td>
+            <td style="padding:10px">25565</td>
+            <td style="padding:10px">TCP+UDP</td>
+          </tr>
+          <tr style="border-bottom:1px solid #eee">
+            <td style="padding:10px">Uzak Masaüstü (RDP)</td>
+            <td style="padding:10px">3389</td>
+            <td style="padding:10px">TCP</td>
+          </tr>
+          <tr style="border-bottom:1px solid #eee">
+            <td style="padding:10px">Web Sunucusu (HTTP)</td>
+            <td style="padding:10px">80</td>
+            <td style="padding:10px">TCP</td>
+          </tr>
+          <tr style="border-bottom:1px solid #eee">
+            <td style="padding:10px">Web Sunucusu (HTTPS)</td>
+            <td style="padding:10px">443</td>
+            <td style="padding:10px">TCP</td>
+          </tr>
+          <tr style="border-bottom:1px solid #eee">
+            <td style="padding:10px">FTP</td>
+            <td style="padding:10px">21</td>
+            <td style="padding:10px">TCP</td>
+          </tr>
+          <tr style="border-bottom:1px solid #eee">
+            <td style="padding:10px">SSH</td>
+            <td style="padding:10px">22</td>
+            <td style="padding:10px">TCP</td>
+          </tr>
+          <tr style="border-bottom:1px solid #eee">
+            <td style="padding:10px">CCTV / IP Kamera</td>
+            <td style="padding:10px">8080 veya üretici bazlı</td>
+            <td style="padding:10px">TCP</td>
+          </tr>
+        </table>
+
+        <h2>Adım 4: Port Açılışını Test Edin</h2>
+        <p>Canlı IP adresinizi öğrenmek için <a href="ip-adresi-nasil-ogrenilir.html">bu rehbere</a> bakın. Ardından <strong>canyouseeme.org</strong> sitesinde port numaranızı girerek dışarıdan erişilebilir olup olmadığını test edin.</p>
+
+        <div class="warn-box">
+          ⚠️ <strong>Güvenlik uyarısı:</strong> Port açmak güvenlik riskini artırır. Yalnızca ihtiyaç duyduğunuz portları açın. RDP (3389) gibi kritik portları açıyorsanız güçlü şifre kullanın ve mümkünse port numarasını değiştirin.
+        </div>
+
+        <h2>CGN / Carrier-Grade NAT Sorunu</h2>
+        <p>Bazı ISS'ler abonelere gerçek bir genel IP adresi vermez, paylaşımlı IP kullanır (CGN/CGNAT). Bu durumda port forwarding çalışmaz. ISS'nizden <strong>statik IP</strong> veya <strong>CGN'den çıkış</strong> talep edebilirsiniz (ücretli olabilir).</p>
+
+        <h2>Teknik Destek</h2>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="ip-adresi-nasil-ogrenilir.html">IP adresim nedir? <span class="arrow">›</span></a></li>
+          <li><a href="mac-adresi-nedir.html">MAC adresi nedir? <span class="arrow">›</span></a></li>
+          <li><a href="oyun-ping-sorunu.html">Online oyun ping sorunu <span class="arrow">›</span></a></li>
+          <li><a href="modem-default-sifre.html">Modem varsayılan şifreler <span class="arrow">›</span></a></li>
+          <li><a href="fiber-internet-kurulumu.html">Fiber internet kurulumu <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

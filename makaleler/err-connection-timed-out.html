@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ERR_CONNECTION_TIMED_OUT Hatası Nedir? Nasıl Çözülür? — İnternetArıza</title>
+  <meta name="description" content="Chrome'da ERR_CONNECTION_TIMED_OUT hatası alıyor musunuz? Bağlantı zaman aşımı hatasını adım adım çözün.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/yavash-internet.html">Yavaş İnternet</a> ›
+          <span>ERR_CONNECTION_TIMED_OUT</span>
+        </div>
+        <h1>ERR_CONNECTION_TIMED_OUT Hatası Nedir? Nasıl Çözülür?</h1>
+        <p class="article-intro">Tarayıcınız bir siteye bağlanmaya çalışıyor ama süre dolmadan yanıt alamıyor ve "ERR_CONNECTION_TIMED_OUT" hatası veriyor. Bu hata DNS_PROBE hatasından farklıdır: DNS çözümlendi ama sunucuya ulaşılamadı.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>ERR_CONNECTION_TIMED_OUT Ne Demek?</h2>
+        <p>Tarayıcı, web sitesinin sunucusuna bağlantı isteği gönderdi ancak belirlenen süre içinde (genellikle 30 saniye) yanıt alamadı. Bu durum şu nedenlerden kaynaklanabilir:</p>
+        <ul>
+          <li>İnternet bağlantınız yok veya çok yavaş</li>
+          <li>Web sitesinin sunucusu geçici olarak çevrimdışı</li>
+          <li>Güvenlik duvarı veya antivirüs bağlantıyı engelliyor</li>
+          <li>Proxy veya VPN ayarı yanlış yapılandırılmış</li>
+          <li>Ağ adaptörü sürücüsü sorunu</li>
+          <li>ISS tarafında belirli sitelere erişim engeli</li>
+        </ul>
+
+        <h2>Adım 1: Başka Siteler Açılıyor mu?</h2>
+        <p>google.com, youtube.com gibi birden fazla farklı siteyi deneyin. Yalnızca tek bir site açılmıyorsa sorun o sitededir — başka şey yapmanıza gerek yok. Birden fazla site açılmıyorsa devam edin.</p>
+
+        <h2>Adım 2: Modemi Yeniden Başlatın</h2>
+        <div class="step-box">
+          <span class="step-number">1</span> Modemin fişini çekin, 30 saniye bekleyin.
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> Yeniden takın, 2 dakika bekleyin.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> Siteye tekrar girmeyi deneyin.
+        </div>
+
+        <h2>Adım 3: Proxy Ayarlarını Kontrol Edin</h2>
+        <p>Yanlış proxy ayarı bağlantı zaman aşımına neden olur:</p>
+        <ol>
+          <li>Chrome → Ayarlar → <strong>Sistem → Bilgisayarınızın proxy ayarlarını aç</strong></li>
+          <li>Manuel proxy kurulumu <strong>Kapalı</strong> olsun</li>
+          <li>Otomatik proxy algılama <strong>Açık</strong> veya her ikisi kapalı olabilir</li>
+        </ol>
+        <p>Windows Ayarları üzerinden: Ayarlar → Ağ ve İnternet → Proxy → "Proxy sunucusu kullan" kapalı olsun.</p>
+
+        <h2>Adım 4: DNS ve IP'yi Sıfırlayın</h2>
+        <p>CMD'yi yönetici olarak açın:</p>
+        <ul>
+          <li><code>ipconfig /flushdns</code></li>
+          <li><code>ipconfig /release</code></li>
+          <li><code>ipconfig /renew</code></li>
+          <li><code>netsh winsock reset</code></li>
+          <li><code>netsh int ip reset</code></li>
+        </ul>
+        <p>Bilgisayarı yeniden başlatın.</p>
+
+        <h2>Adım 5: DNS Sunucusunu Değiştirin</h2>
+        <ul>
+          <li>Tercih edilen DNS: <code>8.8.8.8</code></li>
+          <li>Alternatif DNS: <code>8.8.4.4</code></li>
+        </ul>
+
+        <h2>Adım 6: Güvenlik Yazılımını Geçici Olarak Devre Dışı Bırakın</h2>
+        <p>Antivirüs ve güvenlik duvarı yazılımları bazı sitelere bağlantıyı engelleyebilir. Geçici olarak devre dışı bırakıp test edin. Sorun çözülürse yazılımın "istisnalar" veya "whitelist" bölümüne siteyi ekleyin.</p>
+
+        <h2>Adım 7: Chrome Ayarlarını Sıfırlayın</h2>
+        <ol>
+          <li>Chrome → Ayarlar → Gelişmiş → <strong>Sıfırla ve temizle</strong></li>
+          <li><strong>Ayarları orijinal varsayılan değerlerine geri yükle</strong></li>
+          <li>Onaylayın</li>
+        </ol>
+
+        <h2>Adım 8: Farklı Tarayıcı Deneyin</h2>
+        <p>Sorun yalnızca Chrome'da yaşanıyorsa Firefox veya Edge ile deneyin. Diğer tarayıcılarda çalışıyorsa sorun Chrome'a özgüdür.</p>
+
+        <div class="warn-box">
+          ⚠️ Türkiye'de BTK tarafından erişim engeli uygulanan sitelere de bu hata alınabilir. Site başka ülkelerden erişilebiliyorsa bu durumla karşı karşıya olabilirsiniz.
+        </div>
+
+        <h2>Teknik Destek</h2>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="dns-probe-finished-nxdomain.html">DNS_PROBE_FINISHED_NXDOMAIN <span class="arrow">›</span></a></li>
+          <li><a href="dns-ayarlari.html">DNS ayarları <span class="arrow">›</span></a></li>
+          <li><a href="wifi-bagli-ama-internet-yok.html">WiFi bağlı ama internet yok <span class="arrow">›</span></a></li>
+          <li><a href="internet-baglantisi-yok.html">İnternet bağlantısı yok <span class="arrow">›</span></a></li>
+          <li><a href="ethernet-bagli-internet-yok.html">Ethernet takılı ama internet yok <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

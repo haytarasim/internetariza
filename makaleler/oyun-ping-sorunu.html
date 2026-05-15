@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Oyunda Yüksek Ping ve Lag Sorunu: Çözüm Rehberi — İnternetArıza</title>
+  <meta name="description" content="Online oyunda ping yüksek, lag var, rubber banding oluyor mu? Ping düşürme ve lag azaltma için adım adım rehber.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/yavash-internet.html">Yavaş İnternet</a> ›
+          <span>Online Oyun Ping Sorunu</span>
+        </div>
+        <h1>Online Oyunda Yüksek Ping ve Lag Sorunu: Çözüm Rehberi</h1>
+        <p class="article-intro">Oyunda karakteriniz yerinde donuyor, ekran titriyor ya da öldürüldükten sonra "daha ne oldu?" diye bakıyorsunuz. Yüksek ping ve lag sorunu internet hızından çok bağlantı kalitesiyle ilgilidir.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>Ping Nedir ve Kaç Ms Olmalı?</h2>
+        <p>Ping, bilgisayarınızdan oyun sunucusuna bir veri paketinin gidip gelmesi için geçen süredir (milisaniye cinsinden).</p>
+        <ul>
+          <li><strong>0–30 ms:</strong> Mükemmel — rekabetçi oyunlar için ideal</li>
+          <li><strong>30–60 ms:</strong> İyi — çoğu oyun için yeterli</li>
+          <li><strong>60–100 ms:</strong> Orta — fark edilir ama oynanabilir</li>
+          <li><strong>100–150 ms:</strong> Kötü — belirgin lag</li>
+          <li><strong>150 ms+:</strong> Çok kötü — oyun oynanamaz</li>
+        </ul>
+
+        <h2>Adım 1: Ethernet Kablosuna Geçin (En Etkili Çözüm)</h2>
+        <p>WiFi üzerinden oyun oynamak, her ne kadar hız yeterli görünse de, gecikme dalgalanması (jitter) ve paket kaybı nedeniyle lag oluşturur. Bilgisayarı doğrudan Ethernet kablosuyla modeme bağlayın. Ping genellikle 20-40 ms düşer.</p>
+        <div class="tip-box">
+          💡 Konsol kullanıcıları için de aynı kural geçerli: PS5, Xbox ve Nintendo Switch'i kabloya alın.
+        </div>
+
+        <h2>Adım 2: Arka Plan Trafiğini Kesin</h2>
+        <div class="step-box">
+          <span class="step-number">1</span> Windows Update'i duraklatın (Ayarlar → Windows Update → 7 gün ertele).
+        </div>
+        <div class="step-box">
+          <span class="step-number">2</span> Steam, Epic Games, GOG gibi oyun platformlarının güncelleme/indirme işlemlerini durdurun.
+        </div>
+        <div class="step-box">
+          <span class="step-number">3</span> OneDrive, Google Drive senkronizasyonlarını kapatın.
+        </div>
+        <div class="step-box">
+          <span class="step-number">4</span> Aynı ağdaki diğer kişilerin video izlemesini/indirmesini azaltın.
+        </div>
+
+        <h2>Adım 3: Modemi Yeniden Başlatın</h2>
+        <p>Uzun süre açık kalan modemlerde NAT tablosu dolar ve bağlantı gecikmeye başlar. Haftada bir kez modemi yeniden başlatmak iyi bir alışkanlıktır.</p>
+
+        <h2>Adım 4: DNS Sunucusunu Değiştirin</h2>
+        <p>Oyun sunucularına bağlanırken DNS çözümlemesi gecikmeye neden olabilir. Cloudflare DNS deneyin:</p>
+        <ul>
+          <li>Birincil: <code>1.1.1.1</code></li>
+          <li>İkincil: <code>1.0.0.1</code></li>
+        </ul>
+
+        <h2>Adım 5: En Yakın Sunucuyu Seçin</h2>
+        <p>Çoğu oyun sunucu seçimi sunar. Türkiye'deyseniz <strong>Frankfurt</strong> veya <strong>İstanbul</strong> sunucularını tercih edin. Otomatik seçim her zaman en yakın sunucuyu seçmeyebilir.</p>
+
+        <h2>Adım 6: Oyun için Port Açın (Port Forwarding)</h2>
+        <p>Bazı oyunlar belirli portların açık olmasını gerektirir. Modem yönetim panelinden oynattığınız oyunun portlarını açabilirsiniz. Popüler oyunların port listesi:</p>
+        <ul>
+          <li><strong>Valorant:</strong> UDP 7000-8000</li>
+          <li><strong>CS2 / CSGO:</strong> UDP 27000-27036, 27015 TCP</li>
+          <li><strong>League of Legends:</strong> TCP 2099, 5223; UDP 5000-5500</li>
+          <li><strong>Fortnite:</strong> UDP 5222, 5795-5847</li>
+        </ul>
+
+        <h2>Adım 7: NAT Tipini Kontrol Edin</h2>
+        <p>Konsollar için NAT tipi önemlidir. <strong>NAT Tip 2 (Moderate)</strong> veya <strong>NAT Tip 1 (Open)</strong> olması gerekir. NAT Tip 3 (Strict) bağlantı sorunlarına yol açar. Modeminizde UPnP özelliğini etkinleştirmek NAT tipini iyileştirebilir.</p>
+
+        <div class="warn-box">
+          ⚠️ <strong>VPN kullanmayın</strong> — Oyun ping sorununu çözmek için VPN kullanmak genellikle ping'i daha da artırır. VPN sunucusu üzerinden ek bir atlama noktası eklemiş olursunuz.
+        </div>
+
+        <h2>Teknik Destek</h2>
+        <p>Tüm adımları denemenize rağmen ping yüksekse internet altyapısıyla ilgili bir sorun olabilir. Teknik destek hattını arayın:</p>
+        <div class="tip-box" style="font-size:18px;font-weight:700;text-align:center">
+          📞 <a href="tel:08500000000" style="color:var(--blue)">0850 000 00 00</a>
+        </div>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="port-acma-yonlendirme.html">Port açma rehberi <span class="arrow">›</span></a></li>
+          <li><a href="zoom-teams-baglanti-sorunu.html">Zoom/Teams bağlantı sorunu <span class="arrow">›</span></a></li>
+          <li><a href="internet-neden-yavas.html">İnternet neden yavaş? <span class="arrow">›</span></a></li>
+          <li><a href="dns-ayarlari.html">DNS ayarları <span class="arrow">›</span></a></li>
+          <li><a href="wifi-kanal-degistirme.html">WiFi kanal değiştirme <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
