@@ -179,8 +179,9 @@
     sonuc.innerHTML = `
       <div class="lok-sonuc-adres">
         <span class="lok-check">✓</span>
-        <span><strong>${adres}</strong> bölgesinde hizmet veriyoruz!</span>
+        <strong>${adres}</strong>
       </div>
+      <p class="lok-bildirim">Hizmet kalitemizi arttırmak ve müşterilerimize daha iyi bir deneyim yaşatabilmek için, kısa süreli altyapı iyileştirme çalışması planlanmaktadır.</p>
       <a href="${TELEFON_TEL_LINK}" class="lok-ara-btn">
         <span class="lok-ara-icon">📞</span>
         <div>

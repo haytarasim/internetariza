@@ -792,6 +792,17 @@ footer ul a:hover { color: white; text-decoration: none; }
   flex-shrink: 0;
 }
 
+.lok-bildirim {
+  font-size: 14px;
+  color: var(--text);
+  background: #fff8e1;
+  border-left: 4px solid var(--orange);
+  padding: 12px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
 .lok-ara-btn {
   display: flex;
   align-items: center;
