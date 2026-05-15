@@ -649,6 +649,121 @@ footer ul a:hover { color: white; text-decoration: none; }
 }
 
 /* ========================
+   Header Call Button
+======================== */
+.header-call-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--blue);
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+  text-decoration: none !important;
+  transition: background 0.15s;
+  margin-left: 8px;
+}
+
+.header-call-btn:hover {
+  background: var(--blue-dark);
+  text-decoration: none !important;
+}
+
+.call-icon { font-size: 16px; }
+
+@media (max-width: 600px) {
+  .header-call-btn span:not(.call-icon) { display: none; }
+  .header-call-btn { padding: 8px 12px; font-size: 0; }
+  .header-call-btn .call-icon { font-size: 20px; }
+}
+
+/* ========================
+   Sticky Call Bar (alt sabit çubuk)
+======================== */
+.sticky-call-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 2px solid var(--blue);
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.12);
+  z-index: 999;
+  padding: 12px 16px;
+}
+
+.sticky-call-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.sticky-call-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sticky-call-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.sticky-call-sub {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.sticky-call-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--blue);
+  color: white !important;
+  text-decoration: none !important;
+  padding: 12px 28px;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  white-space: nowrap;
+  transition: background 0.15s, transform 0.15s;
+  box-shadow: 0 4px 12px rgba(26,115,232,0.4);
+  flex-shrink: 0;
+}
+
+.sticky-call-btn:hover {
+  background: var(--blue-dark);
+  transform: translateY(-1px);
+  text-decoration: none !important;
+}
+
+.sticky-call-number {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+/* Sticky bar için sayfa altına boşluk */
+body { padding-bottom: 76px; }
+
+@media (max-width: 600px) {
+  .sticky-call-text { display: none; }
+  .sticky-call-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 14px;
+  }
+  body { padding-bottom: 66px; }
+}
+
+/* ========================
    Utilities
 ======================== */
 .mt-4 { margin-top: 16px; }
