@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /arama.html
+
+Sitemap: https://internetariza.com/sitemap.xml

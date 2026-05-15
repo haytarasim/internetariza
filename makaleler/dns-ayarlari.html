@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>En İyi DNS Sunucuları ve DNS Nasıl Değiştirilir? — İnternetArıza</title>
+  <meta name="description" content="Google DNS 8.8.8.8, Cloudflare 1.1.1.1 ve OpenDNS. Windows, Mac ve router üzerinden DNS ayarı rehberi.">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo" style="text-decoration:none">
+        <div class="logo-icon">📡</div>
+        İnternet<span>Arıza</span>
+      </a>
+      <div class="header-search">
+        <div class="header-search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="headerSearch" placeholder="Sorunuzu arayın..." autocomplete="off">
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../kategoriler/modem-router.html">Modem</a></li>
+          <li><a href="../kategoriler/internet-saglayicilari.html">İSS</a></li>
+          <li><a href="../kategoriler/yavash-internet.html">Hız</a></li>
+          <li><a href="../kategoriler/kurulum.html">Kurulum</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="ad-banner">
+  <div class="container">
+    <div class="ad-banner-inner">
+      <div class="ad-label">Reklam</div>
+      <span style="font-size:13px;color:#bbb">Google Ads — 728×90</span>
+    </div>
+  </div>
+</div>
+
+<div class="container article-page">
+  <div class="articles-grid">
+    <article>
+      <div class="article-header">
+        <div class="breadcrumb">
+          <a href="../index.html">Ana Sayfa</a> ›
+          <a href="../kategoriler/yavash-internet.html">Yavaş İnternet</a> ›
+          <span>DNS Ayarları</span>
+        </div>
+        <h1>En İyi DNS Sunucuları: Google, Cloudflare, OpenDNS</h1>
+        <p class="article-intro">DNS değiştirmek internet hızını ve güvenliğini artırabilir. Bu rehberde en iyi DNS sunucuları ve nasıl değiştirileceği anlatılıyor.</p>
+      </div>
+
+      <div class="article-body">
+
+        <h2>DNS Nedir?</h2>
+        <p>DNS (Domain Name System), web adreslerini IP adreslerine çeviren sistemdir. "google.com" yazdığınızda DNS sunucusu bunu 142.250.x.x gibi bir IP'ye çevirir. Yavaş DNS = yavaş sayfa açılışı.</p>
+
+        <h2>En İyi DNS Sunucuları</h2>
+
+        <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:14px">
+          <thead>
+            <tr style="background:var(--blue);color:white">
+              <th style="padding:10px 14px;text-align:left">Sağlayıcı</th>
+              <th style="padding:10px 14px;text-align:left">Birincil DNS</th>
+              <th style="padding:10px 14px;text-align:left">İkincil DNS</th>
+              <th style="padding:10px 14px;text-align:left">Özellik</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid var(--border)">
+              <td style="padding:10px 14px"><strong>Cloudflare</strong></td>
+              <td style="padding:10px 14px">1.1.1.1</td>
+              <td style="padding:10px 14px">1.0.0.1</td>
+              <td style="padding:10px 14px">En hızlı, gizlilik odaklı</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border);background:var(--bg)">
+              <td style="padding:10px 14px"><strong>Google</strong></td>
+              <td style="padding:10px 14px">8.8.8.8</td>
+              <td style="padding:10px 14px">8.8.4.4</td>
+              <td style="padding:10px 14px">Güvenilir, istikrarlı</td>
+            </tr>
+            <tr style="border-bottom:1px solid var(--border)">
+              <td style="padding:10px 14px"><strong>OpenDNS</strong></td>
+              <td style="padding:10px 14px">208.67.222.222</td>
+              <td style="padding:10px 14px">208.67.220.220</td>
+              <td style="padding:10px 14px">Ebeveyn kontrolü, güvenlik</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="tip-box">
+          💡 Türkiye'deyseniz genellikle <strong>Cloudflare (1.1.1.1)</strong> en iyi yanıt sürelerini verir.
+        </div>
+
+        <h2>Windows'ta DNS Nasıl Değiştirilir?</h2>
+
+        <div class="step-box"><span class="step-number">1</span> Başlat → Ayarlar → Ağ ve İnternet → Bağdaştırıcı seçeneklerini değiştir</div>
+        <div class="step-box"><span class="step-number">2</span> Kullandığınız ağ bağlantısına sağ tıklayın → Özellikler</div>
+        <div class="step-box"><span class="step-number">3</span> "İnternet Protokolü Sürüm 4 (TCP/IPv4)" seçin → Özellikler</div>
+        <div class="step-box"><span class="step-number">4</span> "Aşağıdaki DNS sunucusu adreslerini kullan" seçin</div>
+        <div class="step-box"><span class="step-number">5</span> Tercih edilen: <strong>1.1.1.1</strong> — Alternatif: <strong>1.0.0.1</strong></div>
+        <div class="step-box"><span class="step-number">6</span> Tamam'a tıklayın, tarayıcıyı kapatıp açın</div>
+
+        <h2>Router Üzerinden DNS Değiştirme (Tüm Cihazlara Uygulanır)</h2>
+
+        <div class="step-box"><span class="step-number">1</span> Tarayıcıya <strong>192.168.1.1</strong> veya <strong>192.168.0.1</strong> yazın</div>
+        <div class="step-box"><span class="step-number">2</span> Router yönetim paneline giriş yapın (varsayılan: admin/admin)</div>
+        <div class="step-box"><span class="step-number">3</span> WAN Ayarları veya İnternet Bağlantısı bölümüne gidin</div>
+        <div class="step-box"><span class="step-number">4</span> DNS alanlarına 1.1.1.1 ve 1.0.0.1 yazın</div>
+        <div class="step-box"><span class="step-number">5</span> Kaydedin. Tüm ev cihazlarına uygulanır.</div>
+
+        <h2>DNS Değişikliği Etkili mi Oldu?</h2>
+        <p>Komut istemcisini açın (Win+R → cmd) ve şunu yazın:</p>
+        <div class="step-box" style="font-family:monospace">nslookup google.com</div>
+        <p>Sonuçta "Server: 1.1.1.1" görüyorsanız değişiklik başarıyla uygulanmış demektir.</p>
+
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h4>🔗 İlgili Rehberler</h4>
+        <ul class="quick-links">
+          <li><a href="internet-neden-yavas.html">İnternet neden yavaş? <span class="arrow">›</span></a></li>
+          <li><a href="wifi-kanal-degistirme.html">WiFi kanal optimizasyonu <span class="arrow">›</span></a></li>
+          <li><a href="internet-hiz-testi.html">Hız testi <span class="arrow">›</span></a></li>
+        </ul>
+      </div>
+      <div class="ad-banner" style="border-radius:8px">
+        <div class="ad-banner-inner" style="min-height:250px">
+          <div class="ad-label">Reklam</div>
+          <span style="font-size:13px;color:#bbb">Google Ads — 300×250</span>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>© 2024 İnternetArıza.com</p>
+    </div>
+  </div>
+</footer>
+<script src="../js/search.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

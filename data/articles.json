@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "baslik": "İnternet Bağlantısı Yok: Adım Adım Çözüm Rehberi",
+    "ozet": "Modem çalışıyor ama internet yok mu? Işık durumlarına göre sorunu nasıl çözeceğinizi öğrenin.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/internet-baglantisi-yok.html",
+    "etiketler": ["internet yok", "bağlantı sorunu", "modem", "çözüm"]
+  },
+  {
+    "id": 2,
+    "baslik": "Modem Işıkları Ne Anlama Gelir? Renk Rehberi",
+    "ozet": "Kırmızı, sarı, yeşil... Modem ve router üzerindeki LED ışıkların anlamlarını öğrenin.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/modem-isiklari-anlami.html",
+    "etiketler": ["modem ışığı", "kırmızı ışık", "LED", "router"]
+  },
+  {
+    "id": 3,
+    "baslik": "Türk Telekom İnternet Arızası Nasıl Bildirilir?",
+    "ozet": "Türk Telekom ADSL/VDSL/Fiber arızası için çağrı merkezi, online bildirim ve süreç takibi.",
+    "kategori": "internet-saglayicilari",
+    "kategoriAd": "İnternet Sağlayıcıları",
+    "url": "makaleler/turk-telekom-ariza.html",
+    "etiketler": ["Türk Telekom", "arıza bildirimi", "çağrı merkezi", "432"]
+  },
+  {
+    "id": 4,
+    "baslik": "Turkcell Superonline Arıza Bildirimi ve Çözüm",
+    "ozet": "Superonline fiber internet arızası için adımlar, iletişim kanalları ve süreç takibi.",
+    "kategori": "internet-saglayicilari",
+    "kategoriAd": "İnternet Sağlayıcıları",
+    "url": "makaleler/superonline-ariza.html",
+    "etiketler": ["Superonline", "Turkcell", "fiber arıza", "teknik servis"]
+  },
+  {
+    "id": 5,
+    "baslik": "Vodafone Net Arıza Bildirimi Nasıl Yapılır?",
+    "ozet": "Vodafone ev interneti ADSL/Fiber arıza bildirimi, teknik destek ve servis süreci.",
+    "kategori": "internet-saglayicilari",
+    "kategoriAd": "İnternet Sağlayıcıları",
+    "url": "makaleler/vodafone-ariza.html",
+    "etiketler": ["Vodafone", "arıza", "teknik destek", "fiber"]
+  },
+  {
+    "id": 6,
+    "baslik": "İnternet Neden Yavaş? 10 Temel Neden ve Çözüm",
+    "ozet": "Hız testi yaptınız, sonuç düşük mü? Yavaş internetin en sık karşılaşılan 10 nedeni ve çözümleri.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/internet-neden-yavas.html",
+    "etiketler": ["yavaş internet", "hız sorunu", "hız testi", "optimizasyon"]
+  },
+  {
+    "id": 7,
+    "baslik": "En İyi DNS Sunucuları: Google, Cloudflare, OpenDNS",
+    "ozet": "DNS değiştirerek internet hızını ve güvenliğini artırın. Adım adım DNS ayarı rehberi.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/dns-ayarlari.html",
+    "etiketler": ["DNS", "8.8.8.8", "1.1.1.1", "hız artırma"]
+  },
+  {
+    "id": 8,
+    "baslik": "WiFi Kanalı Nasıl Değiştirilir? 2.4GHz vs 5GHz",
+    "ozet": "Komşu ağlardan kaynaklanan girişimi önlemek için WiFi kanal optimizasyonu rehberi.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/wifi-kanal-degistirme.html",
+    "etiketler": ["WiFi kanal", "2.4GHz", "5GHz", "girişim"]
+  },
+  {
+    "id": 9,
+    "baslik": "Fiber İnternet Kurulumu Nasıl Yapılır?",
+    "ozet": "Fiber internet kurulum süreci, ONT cihazı bağlantısı ve ilk ayarlar hakkında her şey.",
+    "kategori": "kurulum",
+    "kategoriAd": "Kurulum Rehberleri",
+    "url": "makaleler/fiber-internet-kurulumu.html",
+    "etiketler": ["fiber kurulum", "ONT", "GPON", "kurulum"]
+  },
+  {
+    "id": 10,
+    "baslik": "PPPoE Bağlantı Ayarları Nasıl Yapılır?",
+    "ozet": "Modem/router üzerinde PPPoE kullanıcı adı ve şifre ayarı; ADSL ve VDSL bağlantıları için.",
+    "kategori": "kurulum",
+    "kategoriAd": "Kurulum Rehberleri",
+    "url": "makaleler/pppoe-ayarlari.html",
+    "etiketler": ["PPPoE", "ADSL", "VDSL", "kullanıcı adı şifre"]
+  },
+  {
+    "id": 11,
+    "baslik": "Router Fabrika Ayarlarına Nasıl Döndürülür? (Reset)",
+    "ozet": "TP-Link, D-Link, ZTE, Huawei router reset işlemi adım adım. Şifre sıfırlama ve yeniden kurulum.",
+    "kategori": "modem-router",
+    "kategoriAd": "Modem & Router",
+    "url": "makaleler/router-reset.html",
+    "etiketler": ["router reset", "fabrika ayarları", "şifre sıfırlama", "TP-Link"]
+  },
+  {
+    "id": 12,
+    "baslik": "İnternet Hız Testi Nasıl Yapılır? Sonuçlar Ne Anlama Gelir?",
+    "ozet": "Speedtest.net, Fast.com ile doğru hız testi yapımı ve Mbps, ping, jitter değerlerinin anlamları.",
+    "kategori": "yavash-internet",
+    "kategoriAd": "Yavaş İnternet",
+    "url": "makaleler/internet-hiz-testi.html",
+    "etiketler": ["hız testi", "speedtest", "Mbps", "ping"]
+  }
+]
