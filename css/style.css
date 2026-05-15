@@ -649,6 +649,174 @@ footer ul a:hover { color: white; text-decoration: none; }
 }
 
 /* ========================
+   Lokasyon Seçici
+======================== */
+#lokasyonSelector {
+  background: white;
+  border-radius: 16px;
+  padding: 28px 32px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  max-width: 760px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.lok-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.lok-icon { font-size: 32px; }
+
+.lok-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.lok-sub {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.lok-selects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 640px) {
+  .lok-selects { grid-template-columns: 1fr; }
+  #lokasyonSelector { padding: 20px 16px; }
+}
+
+.lok-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.lok-select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 14px;
+  color: var(--text);
+  background: white;
+  outline: none;
+  transition: border-color 0.15s;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%235f6368' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  cursor: pointer;
+}
+
+input.lok-select {
+  background-image: none;
+}
+
+.lok-select:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px var(--blue-light);
+}
+
+.lok-select:disabled {
+  background-color: var(--bg);
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Sonuç kutusu */
+.lok-sonuc {
+  border-top: 2px solid var(--blue-light);
+  padding-top: 18px;
+  margin-top: 4px;
+  animation: fadeInUp 0.3s ease;
+}
+
+.lok-sonuc.hidden { display: none; }
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.lok-sonuc-adres {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+
+.lok-check {
+  background: var(--green);
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.lok-ara-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--blue);
+  color: white !important;
+  text-decoration: none !important;
+  padding: 14px 24px;
+  border-radius: 12px;
+  transition: background 0.15s, transform 0.15s;
+  box-shadow: 0 4px 14px rgba(26,115,232,0.35);
+  width: 100%;
+}
+
+.lok-ara-btn:hover {
+  background: var(--blue-dark);
+  transform: translateY(-1px);
+  text-decoration: none !important;
+}
+
+.lok-ara-icon { font-size: 28px; }
+
+.lok-ara-label {
+  font-size: 13px;
+  opacity: 0.9;
+  margin-bottom: 2px;
+}
+
+.lok-ara-numara {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.lok-not {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* ========================
    Header Call Button
 ======================== */
 .header-call-btn {
